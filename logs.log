@@ -1,0 +1,1944 @@
+2025-05-07 18:42:18,779:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-07 18:42:18,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-07 18:42:18,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-07 18:42:18,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-07 18:42:18,890:INFO:Initializing load_model()
+2025-05-07 18:42:18,890:INFO:load_model(model_name=Light Gradient Boosting Machine.pkl, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:32,551:INFO:Initializing load_model()
+2025-05-07 18:42:32,551:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:37,075:INFO:Initializing load_model()
+2025-05-07 18:42:37,076:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:38,719:INFO:Initializing load_model()
+2025-05-07 18:42:38,720:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:41,309:INFO:Initializing load_model()
+2025-05-07 18:42:41,309:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:43,180:INFO:Initializing load_model()
+2025-05-07 18:42:43,180:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:46,606:INFO:Initializing load_model()
+2025-05-07 18:42:46,606:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:48,487:INFO:Initializing load_model()
+2025-05-07 18:42:48,487:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:49,826:INFO:Initializing load_model()
+2025-05-07 18:42:49,827:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:52,702:INFO:Initializing load_model()
+2025-05-07 18:42:52,702:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:42:54,583:INFO:Initializing load_model()
+2025-05-07 18:42:54,583:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:43:00,505:INFO:Initializing load_model()
+2025-05-07 18:43:00,506:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:43:07,802:INFO:Initializing load_model()
+2025-05-07 18:43:07,803:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-07 18:43:10,435:INFO:Initializing load_model()
+2025-05-07 18:43:10,436:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:41:05,510:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 09:41:05,513:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 09:41:05,513:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 09:41:05,513:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 09:41:05,639:INFO:Initializing load_model()
+2025-05-08 09:41:05,640:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:31,509:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 09:43:31,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 09:43:31,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 09:43:31,511:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 09:43:31,596:INFO:Initializing load_model()
+2025-05-08 09:43:31,597:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:36,820:INFO:Initializing load_model()
+2025-05-08 09:43:36,821:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:38,589:INFO:Initializing load_model()
+2025-05-08 09:43:38,589:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:41,644:INFO:Initializing load_model()
+2025-05-08 09:43:41,645:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:43,422:INFO:Initializing load_model()
+2025-05-08 09:43:43,422:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:46,183:INFO:Initializing load_model()
+2025-05-08 09:43:46,184:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:47,197:INFO:Initializing load_model()
+2025-05-08 09:43:47,197:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:49,127:INFO:Initializing load_model()
+2025-05-08 09:43:49,127:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:50,322:INFO:Initializing load_model()
+2025-05-08 09:43:50,323:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:52,862:INFO:Initializing load_model()
+2025-05-08 09:43:52,863:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:43:57,708:INFO:Initializing load_model()
+2025-05-08 09:43:57,708:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:44:04,076:INFO:Initializing load_model()
+2025-05-08 09:44:04,077:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:44:05,091:INFO:Initializing load_model()
+2025-05-08 09:44:05,092:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:44:06,748:INFO:Initializing load_model()
+2025-05-08 09:44:06,749:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:44:08,552:INFO:Initializing load_model()
+2025-05-08 09:44:08,552:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:44:09,423:INFO:Initializing load_model()
+2025-05-08 09:44:09,423:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:45:51,382:INFO:Initializing load_model()
+2025-05-08 09:45:51,382:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:48:50,549:INFO:Initializing load_model()
+2025-05-08 09:48:50,550:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 09:48:50,609:INFO:Initializing predict_model()
+2025-05-08 09:48:50,609:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2EB2850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BA9BAC5BC0>)
+2025-05-08 09:48:50,610:INFO:Checking exceptions
+2025-05-08 09:48:50,610:INFO:Preloading libraries
+2025-05-08 09:48:50,610:INFO:Set up data.
+2025-05-08 09:48:50,613:INFO:Set up index.
+2025-05-08 10:43:57,913:INFO:Initializing load_model()
+2025-05-08 10:43:57,913:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:16,802:INFO:Initializing load_model()
+2025-05-08 10:44:16,802:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:16,949:INFO:Initializing load_model()
+2025-05-08 10:44:16,949:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:17,467:INFO:Initializing load_model()
+2025-05-08 10:44:17,467:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:20,324:INFO:Initializing load_model()
+2025-05-08 10:44:20,324:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:26,453:INFO:Initializing load_model()
+2025-05-08 10:44:26,454:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:33,818:INFO:Initializing load_model()
+2025-05-08 10:44:33,818:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:38,050:INFO:Initializing load_model()
+2025-05-08 10:44:38,051:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:43,738:INFO:Initializing load_model()
+2025-05-08 10:44:43,739:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:46,572:INFO:Initializing load_model()
+2025-05-08 10:44:46,572:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:53,837:INFO:Initializing load_model()
+2025-05-08 10:44:53,837:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:44:59,985:INFO:Initializing load_model()
+2025-05-08 10:44:59,986:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:45:01,477:INFO:Initializing load_model()
+2025-05-08 10:45:01,477:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:45:03,240:INFO:Initializing load_model()
+2025-05-08 10:45:03,242:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:45:04,802:INFO:Initializing load_model()
+2025-05-08 10:45:04,803:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:45:07,969:INFO:Initializing load_model()
+2025-05-08 10:45:07,970:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:49:36,714:INFO:Initializing load_model()
+2025-05-08 10:49:36,715:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 10:49:36,795:INFO:Initializing predict_model()
+2025-05-08 10:49:36,795:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2E54BD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BDF80>)
+2025-05-08 10:49:36,796:INFO:Checking exceptions
+2025-05-08 10:49:36,796:INFO:Preloading libraries
+2025-05-08 10:49:36,796:INFO:Set up data.
+2025-05-08 10:49:36,807:INFO:Set up index.
+2025-05-08 11:00:53,942:INFO:Initializing load_model()
+2025-05-08 11:00:53,942:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:00:57,592:INFO:Initializing load_model()
+2025-05-08 11:00:57,592:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:00:59,311:INFO:Initializing load_model()
+2025-05-08 11:00:59,311:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:01:10,857:INFO:Initializing load_model()
+2025-05-08 11:01:10,857:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:01:10,922:INFO:Initializing predict_model()
+2025-05-08 11:01:10,923:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2ECC950>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BC5E0>)
+2025-05-08 11:01:10,923:INFO:Checking exceptions
+2025-05-08 11:01:10,923:INFO:Preloading libraries
+2025-05-08 11:01:10,924:INFO:Set up data.
+2025-05-08 11:01:10,929:INFO:Set up index.
+2025-05-08 11:01:33,591:INFO:Initializing load_model()
+2025-05-08 11:01:33,592:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:01:35,622:INFO:Initializing load_model()
+2025-05-08 11:01:35,622:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:01:35,686:INFO:Initializing predict_model()
+2025-05-08 11:01:35,687:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE1B30ED0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BCC20>)
+2025-05-08 11:01:35,687:INFO:Checking exceptions
+2025-05-08 11:01:35,687:INFO:Preloading libraries
+2025-05-08 11:01:35,687:INFO:Set up data.
+2025-05-08 11:01:35,692:INFO:Set up index.
+2025-05-08 11:01:42,768:INFO:Initializing load_model()
+2025-05-08 11:01:42,769:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:01:42,974:INFO:Initializing load_model()
+2025-05-08 11:01:42,974:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:01:44,422:INFO:Initializing load_model()
+2025-05-08 11:01:44,423:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:01:44,478:INFO:Initializing predict_model()
+2025-05-08 11:01:44,478:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE1BA3D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BA9BAC62A0>)
+2025-05-08 11:01:44,478:INFO:Checking exceptions
+2025-05-08 11:01:44,478:INFO:Preloading libraries
+2025-05-08 11:01:44,479:INFO:Set up data.
+2025-05-08 11:01:44,484:INFO:Set up index.
+2025-05-08 11:02:20,706:INFO:Initializing load_model()
+2025-05-08 11:02:20,706:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:02:25,865:INFO:Initializing load_model()
+2025-05-08 11:02:25,865:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:02:27,631:INFO:Initializing load_model()
+2025-05-08 11:02:27,631:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:02:30,732:INFO:Initializing load_model()
+2025-05-08 11:02:30,732:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:02:33,024:INFO:Initializing load_model()
+2025-05-08 11:02:33,024:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:02:34,076:INFO:Initializing load_model()
+2025-05-08 11:02:34,076:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:02:34,130:INFO:Initializing predict_model()
+2025-05-08 11:02:34,130:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2E9C110>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BCE00>)
+2025-05-08 11:02:34,131:INFO:Checking exceptions
+2025-05-08 11:02:34,131:INFO:Preloading libraries
+2025-05-08 11:02:34,131:INFO:Set up data.
+2025-05-08 11:02:34,135:INFO:Set up index.
+2025-05-08 11:03:25,414:INFO:Initializing load_model()
+2025-05-08 11:03:25,414:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:03:26,888:INFO:Initializing load_model()
+2025-05-08 11:03:26,888:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:03:26,944:INFO:Initializing predict_model()
+2025-05-08 11:03:26,945:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE3431910>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BFF60>)
+2025-05-08 11:03:26,946:INFO:Checking exceptions
+2025-05-08 11:03:26,946:INFO:Preloading libraries
+2025-05-08 11:03:26,947:INFO:Set up data.
+2025-05-08 11:03:26,951:INFO:Set up index.
+2025-05-08 11:03:59,135:INFO:Initializing load_model()
+2025-05-08 11:03:59,135:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:06:49,420:INFO:Initializing load_model()
+2025-05-08 11:06:49,421:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:06:49,493:INFO:Initializing predict_model()
+2025-05-08 11:06:49,493:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2E9A4D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BA9BAC5080>)
+2025-05-08 11:06:49,493:INFO:Checking exceptions
+2025-05-08 11:06:49,493:INFO:Preloading libraries
+2025-05-08 11:06:49,493:INFO:Set up data.
+2025-05-08 11:06:49,500:INFO:Set up index.
+2025-05-08 11:07:00,455:INFO:Initializing load_model()
+2025-05-08 11:07:00,455:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:08:05,004:INFO:Initializing load_model()
+2025-05-08 11:08:05,004:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:08:05,072:INFO:Initializing predict_model()
+2025-05-08 11:08:05,073:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2E81AD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BA9B8E9940>)
+2025-05-08 11:08:05,073:INFO:Checking exceptions
+2025-05-08 11:08:05,073:INFO:Preloading libraries
+2025-05-08 11:08:05,074:INFO:Set up data.
+2025-05-08 11:08:05,079:INFO:Set up index.
+2025-05-08 11:08:08,433:INFO:Initializing load_model()
+2025-05-08 11:08:08,434:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:11:34,219:INFO:Initializing load_model()
+2025-05-08 11:11:34,219:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:11:34,696:INFO:Initializing load_model()
+2025-05-08 11:11:34,697:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:11:34,751:INFO:Initializing predict_model()
+2025-05-08 11:11:34,751:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE3111D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BD120>)
+2025-05-08 11:11:34,751:INFO:Checking exceptions
+2025-05-08 11:11:34,751:INFO:Preloading libraries
+2025-05-08 11:11:34,751:INFO:Set up data.
+2025-05-08 11:11:34,757:INFO:Set up index.
+2025-05-08 11:11:45,161:INFO:Initializing load_model()
+2025-05-08 11:11:45,161:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:11:47,113:INFO:Initializing load_model()
+2025-05-08 11:11:47,113:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:11:47,183:INFO:Initializing predict_model()
+2025-05-08 11:11:47,183:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE30F0150>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BA9BAC4EA0>)
+2025-05-08 11:11:47,184:INFO:Checking exceptions
+2025-05-08 11:11:47,184:INFO:Preloading libraries
+2025-05-08 11:11:47,184:INFO:Set up data.
+2025-05-08 11:11:47,190:INFO:Set up index.
+2025-05-08 11:11:54,883:INFO:Initializing load_model()
+2025-05-08 11:11:54,884:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:11:56,580:INFO:Initializing load_model()
+2025-05-08 11:11:56,580:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:11:56,633:INFO:Initializing predict_model()
+2025-05-08 11:11:56,633:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE30FC290>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BCAE0>)
+2025-05-08 11:11:56,634:INFO:Checking exceptions
+2025-05-08 11:11:56,634:INFO:Preloading libraries
+2025-05-08 11:11:56,634:INFO:Set up data.
+2025-05-08 11:11:56,640:INFO:Set up index.
+2025-05-08 11:11:59,295:INFO:Initializing load_model()
+2025-05-08 11:11:59,295:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:11:59,348:INFO:Initializing predict_model()
+2025-05-08 11:11:59,348:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2E89490>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BA9BAC4F40>)
+2025-05-08 11:11:59,348:INFO:Checking exceptions
+2025-05-08 11:11:59,349:INFO:Preloading libraries
+2025-05-08 11:11:59,349:INFO:Set up data.
+2025-05-08 11:11:59,353:INFO:Set up index.
+2025-05-08 11:12:01,593:INFO:Initializing load_model()
+2025-05-08 11:12:01,594:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:01,655:INFO:Initializing predict_model()
+2025-05-08 11:12:01,656:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE32EC610>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BF880>)
+2025-05-08 11:12:01,656:INFO:Checking exceptions
+2025-05-08 11:12:01,656:INFO:Preloading libraries
+2025-05-08 11:12:01,656:INFO:Set up data.
+2025-05-08 11:12:01,660:INFO:Set up index.
+2025-05-08 11:12:03,109:INFO:Initializing load_model()
+2025-05-08 11:12:03,109:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:04,846:INFO:Initializing load_model()
+2025-05-08 11:12:04,846:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:04,900:INFO:Initializing predict_model()
+2025-05-08 11:12:04,901:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE332CA90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BCCC0>)
+2025-05-08 11:12:04,901:INFO:Checking exceptions
+2025-05-08 11:12:04,901:INFO:Preloading libraries
+2025-05-08 11:12:04,902:INFO:Set up data.
+2025-05-08 11:12:04,907:INFO:Set up index.
+2025-05-08 11:12:07,376:INFO:Initializing load_model()
+2025-05-08 11:12:07,376:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:09,390:INFO:Initializing load_model()
+2025-05-08 11:12:09,390:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:09,880:INFO:Initializing load_model()
+2025-05-08 11:12:09,880:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:09,933:INFO:Initializing predict_model()
+2025-05-08 11:12:09,933:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE1B4D550>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BD120>)
+2025-05-08 11:12:09,933:INFO:Checking exceptions
+2025-05-08 11:12:09,933:INFO:Preloading libraries
+2025-05-08 11:12:09,934:INFO:Set up data.
+2025-05-08 11:12:09,938:INFO:Set up index.
+2025-05-08 11:12:21,686:INFO:Initializing load_model()
+2025-05-08 11:12:21,687:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:23,096:INFO:Initializing load_model()
+2025-05-08 11:12:23,096:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:23,150:INFO:Initializing predict_model()
+2025-05-08 11:12:23,151:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BADE719890>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BFF60>)
+2025-05-08 11:12:23,151:INFO:Checking exceptions
+2025-05-08 11:12:23,151:INFO:Preloading libraries
+2025-05-08 11:12:23,152:INFO:Set up data.
+2025-05-08 11:12:23,156:INFO:Set up index.
+2025-05-08 11:12:29,291:INFO:Initializing load_model()
+2025-05-08 11:12:29,291:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:30,746:INFO:Initializing load_model()
+2025-05-08 11:12:30,746:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:30,800:INFO:Initializing predict_model()
+2025-05-08 11:12:30,800:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE3319D90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33BFF60>)
+2025-05-08 11:12:30,801:INFO:Checking exceptions
+2025-05-08 11:12:30,801:INFO:Preloading libraries
+2025-05-08 11:12:30,801:INFO:Set up data.
+2025-05-08 11:12:30,806:INFO:Set up index.
+2025-05-08 11:12:37,660:INFO:Initializing load_model()
+2025-05-08 11:12:37,660:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:39,296:INFO:Initializing load_model()
+2025-05-08 11:12:39,296:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:12:39,350:INFO:Initializing predict_model()
+2025-05-08 11:12:39,351:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE349D450>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BA9BAC5080>)
+2025-05-08 11:12:39,351:INFO:Checking exceptions
+2025-05-08 11:12:39,351:INFO:Preloading libraries
+2025-05-08 11:12:39,352:INFO:Set up data.
+2025-05-08 11:12:39,356:INFO:Set up index.
+2025-05-08 11:49:21,207:INFO:Initializing load_model()
+2025-05-08 11:49:21,207:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:50:27,146:INFO:Initializing load_model()
+2025-05-08 11:50:27,147:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:52:11,061:INFO:Initializing load_model()
+2025-05-08 11:52:11,062:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:52:11,126:INFO:Initializing predict_model()
+2025-05-08 11:52:11,126:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE3458890>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33EB240>)
+2025-05-08 11:52:11,127:INFO:Checking exceptions
+2025-05-08 11:52:11,127:INFO:Preloading libraries
+2025-05-08 11:52:11,127:INFO:Set up data.
+2025-05-08 11:52:11,132:INFO:Set up index.
+2025-05-08 11:53:19,785:INFO:Initializing load_model()
+2025-05-08 11:53:19,785:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:12,370:INFO:Initializing load_model()
+2025-05-08 11:57:12,370:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:16,349:INFO:Initializing load_model()
+2025-05-08 11:57:16,349:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:18,999:INFO:Initializing load_model()
+2025-05-08 11:57:19,000:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:20,949:INFO:Initializing load_model()
+2025-05-08 11:57:20,949:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:20,999:INFO:Initializing predict_model()
+2025-05-08 11:57:21,000:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE34A7F50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33EAE80>)
+2025-05-08 11:57:21,000:INFO:Checking exceptions
+2025-05-08 11:57:21,000:INFO:Preloading libraries
+2025-05-08 11:57:21,000:INFO:Set up data.
+2025-05-08 11:57:21,005:INFO:Set up index.
+2025-05-08 11:57:28,292:INFO:Initializing load_model()
+2025-05-08 11:57:28,292:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:29,786:INFO:Initializing load_model()
+2025-05-08 11:57:29,787:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:29,846:INFO:Initializing predict_model()
+2025-05-08 11:57:29,846:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2EB0790>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33EB600>)
+2025-05-08 11:57:29,847:INFO:Checking exceptions
+2025-05-08 11:57:29,847:INFO:Preloading libraries
+2025-05-08 11:57:29,847:INFO:Set up data.
+2025-05-08 11:57:29,851:INFO:Set up index.
+2025-05-08 11:57:31,462:INFO:Initializing load_model()
+2025-05-08 11:57:31,463:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:32,628:INFO:Initializing load_model()
+2025-05-08 11:57:32,628:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 11:57:32,679:INFO:Initializing predict_model()
+2025-05-08 11:57:32,679:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000001BAE2E2AA90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000001BAE33E91C0>)
+2025-05-08 11:57:32,679:INFO:Checking exceptions
+2025-05-08 11:57:32,680:INFO:Preloading libraries
+2025-05-08 11:57:32,680:INFO:Set up data.
+2025-05-08 11:57:32,685:INFO:Set up index.
+2025-05-08 11:58:21,695:INFO:Initializing load_model()
+2025-05-08 11:58:21,695:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:24:23,596:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 12:24:23,597:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 12:24:23,598:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 12:24:23,598:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-08 12:24:23,720:INFO:Initializing load_model()
+2025-05-08 12:24:23,720:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:24:31,655:INFO:Initializing load_model()
+2025-05-08 12:24:31,655:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:24:31,733:INFO:Initializing predict_model()
+2025-05-08 12:24:31,733:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000205886D6810>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000205871F3600>)
+2025-05-08 12:24:31,734:INFO:Checking exceptions
+2025-05-08 12:24:31,734:INFO:Preloading libraries
+2025-05-08 12:24:31,734:INFO:Set up data.
+2025-05-08 12:24:31,743:INFO:Set up index.
+2025-05-08 12:25:18,068:INFO:Initializing load_model()
+2025-05-08 12:25:18,068:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:25:45,818:INFO:Initializing load_model()
+2025-05-08 12:25:45,818:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:26:06,202:INFO:Initializing load_model()
+2025-05-08 12:26:06,203:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:26:13,697:INFO:Initializing load_model()
+2025-05-08 12:26:13,697:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:26:13,760:INFO:Initializing predict_model()
+2025-05-08 12:26:13,761:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002058841B390>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588396D40>)
+2025-05-08 12:26:13,761:INFO:Checking exceptions
+2025-05-08 12:26:13,762:INFO:Preloading libraries
+2025-05-08 12:26:13,762:INFO:Set up data.
+2025-05-08 12:26:13,767:INFO:Set up index.
+2025-05-08 12:27:09,576:INFO:Initializing load_model()
+2025-05-08 12:27:09,576:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:27:16,778:INFO:Initializing load_model()
+2025-05-08 12:27:16,778:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:27:16,841:INFO:Initializing predict_model()
+2025-05-08 12:27:16,842:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020588804A10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588396AC0>)
+2025-05-08 12:27:16,842:INFO:Checking exceptions
+2025-05-08 12:27:16,842:INFO:Preloading libraries
+2025-05-08 12:27:16,842:INFO:Set up data.
+2025-05-08 12:27:16,846:INFO:Set up index.
+2025-05-08 12:28:09,121:INFO:Initializing load_model()
+2025-05-08 12:28:09,121:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:28:10,794:INFO:Initializing load_model()
+2025-05-08 12:28:10,794:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:28:10,842:INFO:Initializing predict_model()
+2025-05-08 12:28:10,843:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000205887D9CD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000205C0E7F740>)
+2025-05-08 12:28:10,843:INFO:Checking exceptions
+2025-05-08 12:28:10,843:INFO:Preloading libraries
+2025-05-08 12:28:10,844:INFO:Set up data.
+2025-05-08 12:28:10,849:INFO:Set up index.
+2025-05-08 12:33:02,761:INFO:Initializing load_model()
+2025-05-08 12:33:02,761:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:33:27,277:INFO:Initializing load_model()
+2025-05-08 12:33:27,277:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:34:39,557:INFO:Initializing load_model()
+2025-05-08 12:34:39,557:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:36:42,457:INFO:Initializing load_model()
+2025-05-08 12:36:42,457:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 12:38:18,588:INFO:Initializing load_model()
+2025-05-08 12:38:18,589:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:38:48,193:INFO:Initializing load_model()
+2025-05-08 15:38:48,194:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:39:25,152:INFO:Initializing load_model()
+2025-05-08 15:39:25,153:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:39:30,710:INFO:Initializing load_model()
+2025-05-08 15:39:30,710:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:40:10,073:INFO:Initializing load_model()
+2025-05-08 15:40:10,074:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:40:44,642:INFO:Initializing load_model()
+2025-05-08 15:40:44,642:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:41:37,803:INFO:Initializing load_model()
+2025-05-08 15:41:37,804:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:42:04,173:INFO:Initializing load_model()
+2025-05-08 15:42:04,174:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:43:14,038:INFO:Initializing load_model()
+2025-05-08 15:43:14,039:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:44:52,562:INFO:Initializing load_model()
+2025-05-08 15:44:52,562:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:45:37,668:INFO:Initializing load_model()
+2025-05-08 15:45:37,668:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:47:11,541:INFO:Initializing load_model()
+2025-05-08 15:47:11,541:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:47:53,425:INFO:Initializing load_model()
+2025-05-08 15:47:53,425:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:48:52,956:INFO:Initializing load_model()
+2025-05-08 15:48:52,957:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:49:13,633:INFO:Initializing load_model()
+2025-05-08 15:49:13,633:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:50:14,136:INFO:Initializing load_model()
+2025-05-08 15:50:14,136:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:50:21,962:INFO:Initializing load_model()
+2025-05-08 15:50:21,962:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:53:58,482:INFO:Initializing load_model()
+2025-05-08 15:53:58,482:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:54:41,476:INFO:Initializing load_model()
+2025-05-08 15:54:41,476:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:55:41,756:INFO:Initializing load_model()
+2025-05-08 15:55:41,756:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 15:56:03,903:INFO:Initializing load_model()
+2025-05-08 15:56:03,903:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:05:01,485:INFO:Initializing load_model()
+2025-05-08 16:05:01,486:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:05:27,483:INFO:Initializing load_model()
+2025-05-08 16:05:27,483:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:07:11,076:INFO:Initializing load_model()
+2025-05-08 16:07:11,077:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:07:11,139:INFO:Initializing predict_model()
+2025-05-08 16:07:11,139:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000205886D0350>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000205883974C0>)
+2025-05-08 16:07:11,139:INFO:Checking exceptions
+2025-05-08 16:07:11,139:INFO:Preloading libraries
+2025-05-08 16:07:11,141:INFO:Set up data.
+2025-05-08 16:07:11,145:INFO:Set up index.
+2025-05-08 16:08:05,996:INFO:Initializing load_model()
+2025-05-08 16:08:05,996:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:08:07,575:INFO:Initializing load_model()
+2025-05-08 16:08:07,576:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:08:07,632:INFO:Initializing predict_model()
+2025-05-08 16:08:07,633:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002058871DBD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000205886B4040>)
+2025-05-08 16:08:07,633:INFO:Checking exceptions
+2025-05-08 16:08:07,633:INFO:Preloading libraries
+2025-05-08 16:08:07,634:INFO:Set up data.
+2025-05-08 16:08:07,639:INFO:Set up index.
+2025-05-08 16:14:48,279:INFO:Initializing load_model()
+2025-05-08 16:14:48,279:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:14:53,223:INFO:Initializing load_model()
+2025-05-08 16:14:53,223:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:14:55,882:INFO:Initializing load_model()
+2025-05-08 16:14:55,882:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:16,683:INFO:Initializing load_model()
+2025-05-08 16:15:16,683:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:46,522:INFO:Initializing load_model()
+2025-05-08 16:15:46,522:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:50,146:INFO:Initializing load_model()
+2025-05-08 16:15:50,146:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:50,698:INFO:Initializing load_model()
+2025-05-08 16:15:50,698:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:51,478:INFO:Initializing load_model()
+2025-05-08 16:15:51,479:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:52,196:INFO:Initializing load_model()
+2025-05-08 16:15:52,197:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:52,695:INFO:Initializing load_model()
+2025-05-08 16:15:52,696:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:53,309:INFO:Initializing load_model()
+2025-05-08 16:15:53,309:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:53,854:INFO:Initializing load_model()
+2025-05-08 16:15:53,855:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:15:56,218:INFO:Initializing load_model()
+2025-05-08 16:15:56,219:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 16:22:54,008:INFO:Initializing load_model()
+2025-05-08 16:22:54,008:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:39:34,679:INFO:Initializing load_model()
+2025-05-08 19:39:34,680:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:39:35,391:INFO:Initializing load_model()
+2025-05-08 19:39:35,392:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:27,557:INFO:Initializing load_model()
+2025-05-08 19:40:27,558:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:27,761:INFO:Initializing load_model()
+2025-05-08 19:40:27,761:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:28,595:INFO:Initializing load_model()
+2025-05-08 19:40:28,596:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:31,355:INFO:Initializing load_model()
+2025-05-08 19:40:31,355:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:32,329:INFO:Initializing load_model()
+2025-05-08 19:40:32,329:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:33,059:INFO:Initializing load_model()
+2025-05-08 19:40:33,059:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:33,638:INFO:Initializing load_model()
+2025-05-08 19:40:33,638:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:33,887:INFO:Initializing load_model()
+2025-05-08 19:40:33,887:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:34,511:INFO:Initializing load_model()
+2025-05-08 19:40:34,511:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:35,552:INFO:Initializing load_model()
+2025-05-08 19:40:35,552:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:41,946:INFO:Initializing load_model()
+2025-05-08 19:40:41,946:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:47,282:INFO:Initializing load_model()
+2025-05-08 19:40:47,283:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:47,597:INFO:Initializing load_model()
+2025-05-08 19:40:47,597:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:47,908:INFO:Initializing load_model()
+2025-05-08 19:40:47,908:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:48,932:INFO:Initializing load_model()
+2025-05-08 19:40:48,933:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:49,838:INFO:Initializing load_model()
+2025-05-08 19:40:49,838:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:53,287:INFO:Initializing load_model()
+2025-05-08 19:40:53,288:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:54,078:INFO:Initializing load_model()
+2025-05-08 19:40:54,078:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:54,794:INFO:Initializing load_model()
+2025-05-08 19:40:54,794:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:56,161:INFO:Initializing load_model()
+2025-05-08 19:40:56,161:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:57,109:INFO:Initializing load_model()
+2025-05-08 19:40:57,109:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:40:58,126:INFO:Initializing load_model()
+2025-05-08 19:40:58,126:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:02,040:INFO:Initializing load_model()
+2025-05-08 19:41:02,040:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:02,343:INFO:Initializing load_model()
+2025-05-08 19:41:02,343:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:03,064:INFO:Initializing load_model()
+2025-05-08 19:41:03,064:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:03,544:INFO:Initializing load_model()
+2025-05-08 19:41:03,544:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:03,752:INFO:Initializing load_model()
+2025-05-08 19:41:03,753:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:03,936:INFO:Initializing load_model()
+2025-05-08 19:41:03,936:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:04,143:INFO:Initializing load_model()
+2025-05-08 19:41:04,143:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:04,294:INFO:Initializing load_model()
+2025-05-08 19:41:04,294:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:04,475:INFO:Initializing load_model()
+2025-05-08 19:41:04,475:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:04,652:INFO:Initializing load_model()
+2025-05-08 19:41:04,652:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:04,839:INFO:Initializing load_model()
+2025-05-08 19:41:04,840:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:05,020:INFO:Initializing load_model()
+2025-05-08 19:41:05,021:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:05,192:INFO:Initializing load_model()
+2025-05-08 19:41:05,193:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:05,520:INFO:Initializing load_model()
+2025-05-08 19:41:05,520:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:05,711:INFO:Initializing load_model()
+2025-05-08 19:41:05,711:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:05,896:INFO:Initializing load_model()
+2025-05-08 19:41:05,896:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:06,054:INFO:Initializing load_model()
+2025-05-08 19:41:06,054:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:06,241:INFO:Initializing load_model()
+2025-05-08 19:41:06,242:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:06,416:INFO:Initializing load_model()
+2025-05-08 19:41:06,417:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:06,600:INFO:Initializing load_model()
+2025-05-08 19:41:06,600:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:06,772:INFO:Initializing load_model()
+2025-05-08 19:41:06,773:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:06,945:INFO:Initializing load_model()
+2025-05-08 19:41:06,945:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:07,097:INFO:Initializing load_model()
+2025-05-08 19:41:07,098:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:07,264:INFO:Initializing load_model()
+2025-05-08 19:41:07,265:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:16,666:INFO:Initializing load_model()
+2025-05-08 19:41:16,666:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:16,798:INFO:Initializing load_model()
+2025-05-08 19:41:16,798:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:50,441:INFO:Initializing load_model()
+2025-05-08 19:41:50,441:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:41:58,712:INFO:Initializing load_model()
+2025-05-08 19:41:58,713:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:05,216:INFO:Initializing load_model()
+2025-05-08 19:42:05,216:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:18,002:INFO:Initializing load_model()
+2025-05-08 19:42:18,003:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:26,988:INFO:Initializing load_model()
+2025-05-08 19:42:26,988:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:32,636:INFO:Initializing load_model()
+2025-05-08 19:42:32,637:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:40,483:INFO:Initializing load_model()
+2025-05-08 19:42:40,483:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:40,682:INFO:Initializing load_model()
+2025-05-08 19:42:40,682:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:43,922:INFO:Initializing load_model()
+2025-05-08 19:42:43,923:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:44,931:INFO:Initializing load_model()
+2025-05-08 19:42:44,931:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:47,747:INFO:Initializing load_model()
+2025-05-08 19:42:47,747:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:58,948:INFO:Initializing load_model()
+2025-05-08 19:42:58,948:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:42:59,005:INFO:Initializing predict_model()
+2025-05-08 19:42:59,005:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000205887DA6D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588397E20>)
+2025-05-08 19:42:59,006:INFO:Checking exceptions
+2025-05-08 19:42:59,006:INFO:Preloading libraries
+2025-05-08 19:42:59,006:INFO:Set up data.
+2025-05-08 19:42:59,011:INFO:Set up index.
+2025-05-08 19:43:09,781:INFO:Initializing load_model()
+2025-05-08 19:43:09,781:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:43:11,109:INFO:Initializing load_model()
+2025-05-08 19:43:11,109:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:43:11,159:INFO:Initializing predict_model()
+2025-05-08 19:43:11,159:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020588684510>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000205883963E0>)
+2025-05-08 19:43:11,159:INFO:Checking exceptions
+2025-05-08 19:43:11,159:INFO:Preloading libraries
+2025-05-08 19:43:11,160:INFO:Set up data.
+2025-05-08 19:43:11,164:INFO:Set up index.
+2025-05-08 19:45:27,380:INFO:Initializing load_model()
+2025-05-08 19:45:27,381:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:45:29,169:INFO:Initializing load_model()
+2025-05-08 19:45:29,170:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:45:29,229:INFO:Initializing predict_model()
+2025-05-08 19:45:29,229:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002058723A8D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588396D40>)
+2025-05-08 19:45:29,230:INFO:Checking exceptions
+2025-05-08 19:45:29,230:INFO:Preloading libraries
+2025-05-08 19:45:29,230:INFO:Set up data.
+2025-05-08 19:45:29,235:INFO:Set up index.
+2025-05-08 19:45:32,748:INFO:Initializing load_model()
+2025-05-08 19:45:32,749:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:45:33,939:INFO:Initializing load_model()
+2025-05-08 19:45:33,939:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:45:33,988:INFO:Initializing predict_model()
+2025-05-08 19:45:33,988:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020588761CD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588397560>)
+2025-05-08 19:45:33,988:INFO:Checking exceptions
+2025-05-08 19:45:33,989:INFO:Preloading libraries
+2025-05-08 19:45:33,989:INFO:Set up data.
+2025-05-08 19:45:33,993:INFO:Set up index.
+2025-05-08 19:45:44,422:INFO:Initializing load_model()
+2025-05-08 19:45:44,423:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:45:45,752:INFO:Initializing load_model()
+2025-05-08 19:45:45,752:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:45:45,801:INFO:Initializing predict_model()
+2025-05-08 19:45:45,802:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000205887D9CD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588397B00>)
+2025-05-08 19:45:45,802:INFO:Checking exceptions
+2025-05-08 19:45:45,802:INFO:Preloading libraries
+2025-05-08 19:45:45,803:INFO:Set up data.
+2025-05-08 19:45:45,807:INFO:Set up index.
+2025-05-08 19:45:48,116:INFO:Initializing load_model()
+2025-05-08 19:45:48,117:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:45:49,276:INFO:Initializing load_model()
+2025-05-08 19:45:49,276:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:45:49,324:INFO:Initializing predict_model()
+2025-05-08 19:45:49,325:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000205887D9CD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000205883959E0>)
+2025-05-08 19:45:49,325:INFO:Checking exceptions
+2025-05-08 19:45:49,325:INFO:Preloading libraries
+2025-05-08 19:45:49,325:INFO:Set up data.
+2025-05-08 19:45:49,330:INFO:Set up index.
+2025-05-08 19:46:16,786:INFO:Initializing load_model()
+2025-05-08 19:46:16,787:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:46:18,335:INFO:Initializing load_model()
+2025-05-08 19:46:18,335:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:46:18,392:INFO:Initializing predict_model()
+2025-05-08 19:46:18,393:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020588849CD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588395DA0>)
+2025-05-08 19:46:18,393:INFO:Checking exceptions
+2025-05-08 19:46:18,393:INFO:Preloading libraries
+2025-05-08 19:46:18,393:INFO:Set up data.
+2025-05-08 19:46:18,398:INFO:Set up index.
+2025-05-08 19:46:21,496:INFO:Initializing load_model()
+2025-05-08 19:46:21,497:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:46:22,351:INFO:Initializing load_model()
+2025-05-08 19:46:22,352:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:46:22,400:INFO:Initializing predict_model()
+2025-05-08 19:46:22,400:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020588807150>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588397BA0>)
+2025-05-08 19:46:22,400:INFO:Checking exceptions
+2025-05-08 19:46:22,401:INFO:Preloading libraries
+2025-05-08 19:46:22,401:INFO:Set up data.
+2025-05-08 19:46:22,406:INFO:Set up index.
+2025-05-08 19:46:30,873:INFO:Initializing load_model()
+2025-05-08 19:46:30,873:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:46:32,177:INFO:Initializing load_model()
+2025-05-08 19:46:32,177:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:46:32,233:INFO:Initializing predict_model()
+2025-05-08 19:46:32,234:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002058845A290>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588397740>)
+2025-05-08 19:46:32,234:INFO:Checking exceptions
+2025-05-08 19:46:32,234:INFO:Preloading libraries
+2025-05-08 19:46:32,235:INFO:Set up data.
+2025-05-08 19:46:32,239:INFO:Set up index.
+2025-05-08 19:47:12,268:INFO:Initializing load_model()
+2025-05-08 19:47:12,268:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:33,999:INFO:Initializing load_model()
+2025-05-08 19:47:34,000:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:34,202:INFO:Initializing load_model()
+2025-05-08 19:47:34,202:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:35,321:INFO:Initializing load_model()
+2025-05-08 19:47:35,322:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:36,095:INFO:Initializing load_model()
+2025-05-08 19:47:36,095:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:38,172:INFO:Initializing load_model()
+2025-05-08 19:47:38,172:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:38,795:INFO:Initializing load_model()
+2025-05-08 19:47:38,795:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:39,912:INFO:Initializing load_model()
+2025-05-08 19:47:39,912:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:40,691:INFO:Initializing load_model()
+2025-05-08 19:47:40,691:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:42,322:INFO:Initializing load_model()
+2025-05-08 19:47:42,322:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:43,895:INFO:Initializing load_model()
+2025-05-08 19:47:43,895:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:44,679:INFO:Initializing load_model()
+2025-05-08 19:47:44,679:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:45,444:INFO:Initializing load_model()
+2025-05-08 19:47:45,444:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:46,096:INFO:Initializing load_model()
+2025-05-08 19:47:46,097:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:47,395:INFO:Initializing load_model()
+2025-05-08 19:47:47,395:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:49,050:INFO:Initializing load_model()
+2025-05-08 19:47:49,050:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:49,976:INFO:Initializing load_model()
+2025-05-08 19:47:49,976:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:50,282:INFO:Initializing load_model()
+2025-05-08 19:47:50,282:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:51,337:INFO:Initializing load_model()
+2025-05-08 19:47:51,337:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:51,667:INFO:Initializing load_model()
+2025-05-08 19:47:51,667:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:47:52,000:INFO:Initializing load_model()
+2025-05-08 19:47:52,000:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:48:01,035:INFO:Initializing load_model()
+2025-05-08 19:48:01,035:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:48:01,466:INFO:Initializing load_model()
+2025-05-08 19:48:01,466:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:48:02,064:INFO:Initializing load_model()
+2025-05-08 19:48:02,064:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:48:03,725:INFO:Initializing load_model()
+2025-05-08 19:48:03,726:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:48:21,682:INFO:Initializing load_model()
+2025-05-08 19:48:21,683:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:48:21,883:INFO:Initializing load_model()
+2025-05-08 19:48:21,883:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:48:49,869:INFO:Initializing load_model()
+2025-05-08 19:48:49,870:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:50:17,769:INFO:Initializing load_model()
+2025-05-08 19:50:17,770:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:50:41,884:INFO:Initializing load_model()
+2025-05-08 19:50:41,885:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:50:49,573:INFO:Initializing load_model()
+2025-05-08 19:50:49,573:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:00,404:INFO:Initializing load_model()
+2025-05-08 19:51:00,404:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:00,562:INFO:Initializing load_model()
+2025-05-08 19:51:00,562:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:13,653:INFO:Initializing load_model()
+2025-05-08 19:51:13,653:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:16,300:INFO:Initializing load_model()
+2025-05-08 19:51:16,301:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:16,357:INFO:Initializing predict_model()
+2025-05-08 19:51:16,357:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000205887E1CD0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588397A60>)
+2025-05-08 19:51:16,358:INFO:Checking exceptions
+2025-05-08 19:51:16,358:INFO:Preloading libraries
+2025-05-08 19:51:16,358:INFO:Set up data.
+2025-05-08 19:51:16,363:INFO:Set up index.
+2025-05-08 19:51:45,214:INFO:Initializing load_model()
+2025-05-08 19:51:45,215:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:54,409:INFO:Initializing load_model()
+2025-05-08 19:51:54,409:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:55,095:INFO:Initializing load_model()
+2025-05-08 19:51:55,095:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:55,487:INFO:Initializing load_model()
+2025-05-08 19:51:55,487:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:56,096:INFO:Initializing load_model()
+2025-05-08 19:51:56,096:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:56,651:INFO:Initializing load_model()
+2025-05-08 19:51:56,651:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:56,991:INFO:Initializing load_model()
+2025-05-08 19:51:56,991:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:58,819:INFO:Initializing load_model()
+2025-05-08 19:51:58,820:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:51:59,172:INFO:Initializing load_model()
+2025-05-08 19:51:59,172:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:52:20,346:INFO:Initializing load_model()
+2025-05-08 19:52:20,347:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:52:20,578:INFO:Initializing load_model()
+2025-05-08 19:52:20,579:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:52:39,574:INFO:Initializing load_model()
+2025-05-08 19:52:39,574:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:52:47,680:INFO:Initializing load_model()
+2025-05-08 19:52:47,681:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:52:53,497:INFO:Initializing load_model()
+2025-05-08 19:52:53,498:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:53:25,290:INFO:Initializing load_model()
+2025-05-08 19:53:25,291:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:01,584:INFO:Initializing load_model()
+2025-05-08 19:54:01,584:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:23,729:INFO:Initializing load_model()
+2025-05-08 19:54:23,729:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:24,958:INFO:Initializing load_model()
+2025-05-08 19:54:24,958:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:25,586:INFO:Initializing load_model()
+2025-05-08 19:54:25,586:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:26,160:INFO:Initializing load_model()
+2025-05-08 19:54:26,160:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:27,114:INFO:Initializing load_model()
+2025-05-08 19:54:27,115:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:27,833:INFO:Initializing load_model()
+2025-05-08 19:54:27,833:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:44,969:INFO:Initializing load_model()
+2025-05-08 19:54:44,970:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:45,130:INFO:Initializing load_model()
+2025-05-08 19:54:45,131:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:54:45,182:INFO:Initializing predict_model()
+2025-05-08 19:54:45,183:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000020588457C50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000205871F3600>)
+2025-05-08 19:54:45,183:INFO:Checking exceptions
+2025-05-08 19:54:45,183:INFO:Preloading libraries
+2025-05-08 19:54:45,183:INFO:Set up data.
+2025-05-08 19:54:45,189:INFO:Set up index.
+2025-05-08 19:56:25,603:INFO:Initializing load_model()
+2025-05-08 19:56:25,603:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:27,722:INFO:Initializing load_model()
+2025-05-08 19:56:27,723:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:36,572:INFO:Initializing load_model()
+2025-05-08 19:56:36,573:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:40,449:INFO:Initializing load_model()
+2025-05-08 19:56:40,451:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:40,981:INFO:Initializing load_model()
+2025-05-08 19:56:40,981:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:41,671:INFO:Initializing load_model()
+2025-05-08 19:56:41,672:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:42,789:INFO:Initializing load_model()
+2025-05-08 19:56:42,789:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:43,706:INFO:Initializing load_model()
+2025-05-08 19:56:43,706:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:44,586:INFO:Initializing load_model()
+2025-05-08 19:56:44,586:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:45,253:INFO:Initializing load_model()
+2025-05-08 19:56:45,253:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:45,691:INFO:Initializing load_model()
+2025-05-08 19:56:45,691:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:46,405:INFO:Initializing load_model()
+2025-05-08 19:56:46,405:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:48,981:INFO:Initializing load_model()
+2025-05-08 19:56:48,981:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:56:49,418:INFO:Initializing load_model()
+2025-05-08 19:56:49,418:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:00,360:INFO:Initializing load_model()
+2025-05-08 19:57:00,360:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:01,206:INFO:Initializing load_model()
+2025-05-08 19:57:01,206:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:01,667:INFO:Initializing load_model()
+2025-05-08 19:57:01,667:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:02,252:INFO:Initializing load_model()
+2025-05-08 19:57:02,252:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:02,715:INFO:Initializing load_model()
+2025-05-08 19:57:02,715:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:03,355:INFO:Initializing load_model()
+2025-05-08 19:57:03,355:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:04,596:INFO:Initializing load_model()
+2025-05-08 19:57:04,597:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:07,070:INFO:Initializing load_model()
+2025-05-08 19:57:07,071:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:07,302:INFO:Initializing load_model()
+2025-05-08 19:57:07,303:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:25,328:INFO:Initializing load_model()
+2025-05-08 19:57:25,329:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:30,605:INFO:Initializing load_model()
+2025-05-08 19:57:30,605:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:33,588:INFO:Initializing load_model()
+2025-05-08 19:57:33,588:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:54,550:INFO:Initializing load_model()
+2025-05-08 19:57:54,551:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:57:58,270:INFO:Initializing load_model()
+2025-05-08 19:57:58,271:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:58:25,587:INFO:Initializing load_model()
+2025-05-08 19:58:25,587:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:58:56,579:INFO:Initializing load_model()
+2025-05-08 19:58:56,579:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:58:56,737:INFO:Initializing load_model()
+2025-05-08 19:58:56,737:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:58:59,178:INFO:Initializing load_model()
+2025-05-08 19:58:59,179:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:59:00,314:INFO:Initializing load_model()
+2025-05-08 19:59:00,314:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-08 19:59:00,364:INFO:Initializing predict_model()
+2025-05-08 19:59:00,365:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000205886CFA10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000020588397CE0>)
+2025-05-08 19:59:00,365:INFO:Checking exceptions
+2025-05-08 19:59:00,365:INFO:Preloading libraries
+2025-05-08 19:59:00,365:INFO:Set up data.
+2025-05-08 19:59:00,370:INFO:Set up index.
+2025-05-09 09:10:53,296:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 09:10:53,964:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 09:10:53,965:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 09:10:53,966:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 09:10:54,263:INFO:Initializing load_model()
+2025-05-09 09:10:54,263:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-09 09:16:17,816:INFO:Initializing load_model()
+2025-05-09 09:16:17,818:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-09 15:10:50,084:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 15:10:50,127:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 15:10:50,127:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 15:10:50,127:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 15:10:50,290:INFO:Initializing load_model()
+2025-05-09 15:10:50,290:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-09 15:11:34,676:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 15:11:34,676:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 15:11:34,676:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 15:11:34,676:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-09 15:11:34,795:INFO:Initializing load_model()
+2025-05-09 15:11:34,795:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-09 15:12:42,770:INFO:Initializing load_model()
+2025-05-09 15:12:42,772:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-09 15:12:44,901:INFO:Initializing load_model()
+2025-05-09 15:12:44,901:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-09 15:20:09,548:INFO:Initializing load_model()
+2025-05-09 15:20:09,551:INFO:load_model(model_name=Light Gradient Boosting Machine, platform=None, authentication=None, verbose=True)
+2025-05-09 15:20:09,723:INFO:Initializing predict_model()
+2025-05-09 15:20:09,726:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002284DDBA850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['bedroomCount', 'bathroomCount',
+                                             'postCode', 'habitableSurface',
+                                             'buildingConstructionYear',
+                                             'facedeCount', 'toiletCount'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['type', 'subtype', 'locality',
+                                             'buildingCondition',
+                                             'floodZone...
+                                    transformer=OneHotEncoder(cols=['subtype',
+                                                                    'buildingCondition',
+                                                                    'floodZoneType',
+                                                                    'heatingType',
+                                                                    'kitchenType',
+                                                                    'epcScore'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['locality'],
+                                    transformer=TargetEncoder(cols=['locality'],
+                                                              handle_missing='return_nan'))),
+                ('trained_model', LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002281790A8E0>)
+2025-05-09 15:20:09,726:INFO:Checking exceptions
+2025-05-09 15:20:09,726:INFO:Preloading libraries
+2025-05-09 15:20:09,733:INFO:Set up data.
+2025-05-09 15:20:09,771:INFO:Set up index.
