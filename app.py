@@ -7,7 +7,7 @@ from pycaret.regression import load_model, predict_model
 # Loading the trained model
 # Try except verification
 try:
-    loaded_model = load_model('pipeline_immo_eliza')
+    loaded_model = load_model('model\pipeline_immo_eliza.pkl')
     # st.sidebar.success("Modèle PyCaret chargé avec succès !")
 except Exception as e:
     st.error(f"Erreur lors du chargement du modèle PyCaret : {e}")
