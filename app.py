@@ -139,7 +139,7 @@ def immo_prediction(list_input_data):
 
 def main():
     # Use all the wide
-    st.set_page_config(layout="wide")
+    st.set_page_config(layout="centered")
 
     # Title
     st.title('Immo Eliza AI 🏡')
