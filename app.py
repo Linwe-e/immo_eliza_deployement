@@ -34,12 +34,6 @@ def immo_prediction(list_input_data):
     if len(list_input_data) != len(EXPECTED_COLUMNS_ORDER):
         st.error(f"Incohérence de données : {len(list_input_data)} valeurs reçues, {len(EXPECTED_COLUMNS_ORDER)} attendues.")
         return "Erreur de prédiction (taille des données)"
-
-    #  # Changing the data into a NumPy array
-    # input_data_as_nparray = np.asarray(input_data)
-
-    # Reshaping the data since there is only one instance
-    # input_data_reshaped = input_data_as_nparray.reshape(1, -1)
     
     # Changin the data into a Dataframe
     df_input_data = pd.DataFrame([list_input_data], columns=EXPECTED_COLUMNS_ORDER)
@@ -163,20 +157,27 @@ def main():
     st.sidebar.header('Enter property details :')
 
     # Numerical data
-    bedroomCount = st.sidebar.slider('Bedroom Count', min_value=0, max_value=10, value=2, step=1)
-    bathroomCount = st.sidebar.slider('Bathroom Count', min_value=0, max_value=10, value=2, step=1)
+    bedroomCount = st.sidebar.slider('Bedroom Count', min_value=0, max_value=10, step=1)
+    bathroomCount = st.sidebar.slider('Bathroom Count', min_value=0, max_value=10, step=1)
     postCode = st.sidebar.number_input('Post Code', min_value=1000, max_value=9999, value=1000, step=1)
-    habitableSurface = st.sidebar.number_input('Habitable Surface',min_value=0, value=100, step=1)
-    buildingConstructionYear = st.sidebar.number_input('Building Construction Year', min_value=1800, max_value=2025, value=1990, step=1)
-    facedeCount = st.sidebar.number_input('Facede Count', min_value=0, value=2, step=1)
-    toiletCount = st.sidebar.number_input('Toilet Count', min_value=0, value=1, step=1)
-    landSurface = st.sidebar.number_input('Land Surface', min_value=0, value=100, step=1)
-    gardenSurface = st.sidebar.number_input('Garden Surface', min_value=0, value=100, step=1)
-    building_floors = st.sidebar.number_input('Building Floors for a house', min_value=0, value=2, step=1)
-    apartment_floor = st.sidebar.number_input('Apartment Floor for an apartment', min_value=0, value=2, step=1)
+    habitableSurface = st.sidebar.number_input('Habitable Surface',min_value=0, step=1)
+    buildingConstructionYear = st.sidebar.number_input('Building Construction Year', min_value=1800, max_value=2025, step=1)
+    facedeCount = st.sidebar.number_input('Facede Count', min_value=2, max_value = 4, step=1)
+    toiletCount = st.sidebar.number_input('Toilet Count', min_value=1, step=1)
+    landSurface = st.sidebar.number_input('Land Surface', min_value=0, step=1)
+    gardenSurface = st.sidebar.number_input('Garden Surface', min_value=0, step=1)
+    # building_floors = st.sidebar.number_input('Building Floors for a house', min_value=0, value=2, step=1)
+    # apartment_floor = st.sidebar.number_input('Apartment Floor for an apartment', min_value=0, value=2, step=1)
 
     # Categorical data
-    type = st.sidebar.selectbox('Type', ['House', 'Appartment']) 
+    type = st.sidebar.selectbox('Type', ['House', 'Apartment'])
+    if type == 'House':
+        building_floors = st.sidebar.number_input('Building Floors', min_value=0, value=0, step=1)
+        apartment_floor = 0
+    else:
+        apartment_floor =  apartment_floor = st.sidebar.number_input('Apartment Floor', min_value=0, value=0, step=1)
+        building_floors = 0
+    
 
     subtype_grouped = st.sidebar.selectbox('SubType', ['STANDARD_HOUSE', 'STANDARD_APARTMENT',
                                                        'LUXURY_PROPERTY', 'SPECIAL_APARTMENT',
@@ -237,8 +238,6 @@ def main():
     hasFireplace = st.sidebar.checkbox('Fireplace', value=False)
     hasTerrace = st.sidebar.checkbox('Terrace', value=False)
 
-    # Code for prediction
-    price_prediction = ''
     
     # Creating a button for prediction
     if st.button('Predict Price'):
