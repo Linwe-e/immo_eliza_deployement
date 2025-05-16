@@ -43,6 +43,7 @@ def immo_prediction(list_input_data):
     
     # Changin the data into a Dataframe
     df_input_data = pd.DataFrame([list_input_data], columns=EXPECTED_COLUMNS_ORDER)
+
     # add region information
     def get_region(zip_code):
         # On tente de convertir en int
@@ -60,6 +61,7 @@ def immo_prediction(list_input_data):
 
     df_input_data['region'] = df_input_data['postCode'].apply(get_region)
 
+    # add and convert epc score
     def epcToNumeric(row):
         region = row['region']
         epc_score = row['epcNumeric']
