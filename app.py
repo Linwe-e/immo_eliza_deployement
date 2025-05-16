@@ -139,14 +139,14 @@ def immo_prediction(list_input_data):
 
 def main():
     # Use all the wide
-    st.set_page_config(layout="wide")
+    st.set_page_config(layout="centered")
 
     # Title
     st.title('Immo Eliza AI 🏡')
 
     # Image 
     image_url = "image/accueil_immo_eliza.webp"
-    st.image(image_url, use_container_width=True)
+    st.image(image_url, width=300)
 
     # Welcome text
     welcome_text = """ ### Welcome !
