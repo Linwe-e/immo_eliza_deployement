@@ -1,12 +1,6 @@
-Absolument ! C'est une excellente mise à jour. Streamlit est un choix très populaire pour créer rapidement des applications web interactives pour des projets de data science.
 
-Voici une proposition de README en anglais, suivie de sa version française, en intégrant tes dernières informations.
+*English README (French is below)*
 
----
-
-## English README
-
-```markdown
 # Immo Eliza AI - Belgian Real Estate Price Prediction
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -28,6 +22,7 @@ This repository contains the code and resources for **Immo Eliza AI**, a project
 
 ## 📁 Project Structure
 
+```
 .
 ├── .devcontainer
 │   └── devcontainer.json       # Configuration for VS Code Dev Containers (if used)
@@ -124,13 +119,11 @@ Please feel free to:
 ## 📜 License
 
 This project is licensed under the MIT License. See the `LICENSE` file (to be created if you wish to formally add one) for more details.
-```
 
 ---
 
-## Version Française du README
+*Version Française du README*
 
-```markdown
 # Immo Eliza AI - Prédiction des Prix Immobiliers en Belgique
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -249,6 +242,5 @@ N'hésitez pas à :
 ## 📜 Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` (à créer si vous souhaitez ajouter formellement une licence) pour plus de détails.
-```
 
 ---
