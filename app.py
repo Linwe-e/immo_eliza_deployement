@@ -145,7 +145,7 @@ def main():
     st.title('Immo Eliza AI 🏡')
 
     # Image 
-    image_url = 'https://plus.unsplash.com/premium_photo-1661427080615-a954867eaeca?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    image_url = "image/accueil_immo_eliza.webp"
     st.image(image_url, use_container_width=True)
 
     # Welcome text
