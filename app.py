@@ -146,7 +146,7 @@ def main():
 
     # Image 
     image_url = "image/accueil_immo_eliza.webp"
-    st.image(image_url, use_container_width=False)
+    st.image(image_url, width=100)
 
     # Welcome text
     welcome_text = """ ### Welcome !
