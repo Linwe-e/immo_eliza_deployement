@@ -12,6 +12,11 @@ st.set_page_config(layout="centered")
 
 
 
+ # Use all the wide
+st.set_page_config(layout="centered")
+
+
+
 # Loading the trained model
 # Try except verification
 try:
