@@ -1,9 +1,10 @@
 from streamlit_local_storage import LocalStorage
 
-class local_storage:
+class LocalStorageWrapper:
 
     def __init__(self):
         self.localS = LocalStorage()
+        self.prefix = 'immo_eliza_'
 
     default_session_values = {
         'type_key': '--- Choisissez un type ---',
@@ -33,6 +34,23 @@ class local_storage:
         'locality_key': None
     }
 
+    def _get_prefixed_key(self, key):
+        return f"{self.prefix}{key}"
+    
+    def set(self, key, value):
+        ''' 
+        Set local storage value by key
+        '''
+        prefixed_key = self._get_prefixed_key(key)
+        self.localS.set(prefixed_key, value)
+
+    def get(self, key):
+        ''' 
+        Get local storage value by key
+        '''
+        prefixed_key = self._get_prefixed_key(key)
+        return self.localS.get(prefixed_key)
+
     def initialize_state(self):
         '''
         Initialize local storage with default values if not already set
@@ -42,16 +60,3 @@ class local_storage:
                 self.set(key, value)
                 
     
-    def get(self, key):
-        ''' 
-        Get local storage value by key
-        '''
-
-        return self.localS.get(key)
-
-    def set(self, key, value):
-        ''' 
-        Set local storage value by key
-        '''
-
-        self.localS.set(key, value)

@@ -3,19 +3,12 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 from pycaret.regression import load_model, predict_model
-from local_storage import local_storage
+from local_storage import LocalStorageWrapper
 from traduction_fr import traduction_fr
  
 
  # Use all the wide
 st.set_page_config(layout="centered")
-
-
-
- # Use all the wide
-st.set_page_config(layout="centered")
-
-
 
 # Loading the trained model
 # Try except verification
@@ -145,55 +138,55 @@ def immo_prediction(list_input_data):
 
 def main():
 
-    st.write("--- DÉBUT DE main() ---")
-    st.write("1. st.session_state AVANT l'initialisation :", st.session_state)
+    # st.write("--- DÉBUT DE main() ---")
+    # st.write("1. st.session_state AVANT l'initialisation :", st.session_state)
 
-    # Tes valeurs par défaut
-    default_session_values = {
-        'type_key': '--- Choisissez un type ---',
-        'bedroomCount_key': 0,
-        'bathroomCount_key': 0,
-        'postCode_key': 1000,
-        'habitableSurface_key': 0,
-        'buildingCondition_key': 'GOOD',
-        'buildingConstructionYear_key': 1900,
-        'facedeCount_key': 2,
-        'toiletCount_key': 1,
-        'landSurface_key': 0,
-        'hasGarden_key': False,
-        'gardenSurface_key': 0,
-        'hasSwimmingPool_key': False,
-        'hasFireplace_key': False,
-        'hasTerrace_key': False,
-        'subtype_grouped_key': 'STANDARD_HOUSE',
-        'floodZoneType_key': 'NON_FLOOD_ZONE',
-        'heatingType_key': 'GAS',
-        'kitchenType_key': 'INSTALLED',
-        'building_floors_key': 0,
-        'apartment_floor_key': 0,
-        'region_key': "Wallonia",
-        'epcNumeric_key': 'A',
-        'province_key': 'Brussels',
-        'locality_key': None
-    }
+    # # Tes valeurs par défaut
+    # default_session_values = {
+    #     'type_key': '--- Choisissez un type ---',
+    #     'bedroomCount_key': 0,
+    #     'bathroomCount_key': 0,
+    #     'postCode_key': 1000,
+    #     'habitableSurface_key': 0,
+    #     'buildingCondition_key': 'GOOD',
+    #     'buildingConstructionYear_key': 1900,
+    #     'facedeCount_key': 2,
+    #     'toiletCount_key': 1,
+    #     'landSurface_key': 0,
+    #     'hasGarden_key': False,
+    #     'gardenSurface_key': 0,
+    #     'hasSwimmingPool_key': False,
+    #     'hasFireplace_key': False,
+    #     'hasTerrace_key': False,
+    #     'subtype_grouped_key': 'STANDARD_HOUSE',
+    #     'floodZoneType_key': 'NON_FLOOD_ZONE',
+    #     'heatingType_key': 'GAS',
+    #     'kitchenType_key': 'INSTALLED',
+    #     'building_floors_key': 0,
+    #     'apartment_floor_key': 0,
+    #     'region_key': "Wallonia",
+    #     'epcNumeric_key': 'A',
+    #     'province_key': 'Brussels',
+    #     'locality_key': None
+    # }
 
-    st.write("2. Contenu de default_session_values juste avant la boucle :", default_session_values)
+    # st.write("2. Contenu de default_session_values juste avant la boucle :", default_session_values)
 
-    # Ta boucle d'initialisation
-    initialization_performed = False
-    for key, value in default_session_values.items():
-        st.write(f"  Traitement de la clé : '{key}'. Est-elle dans st.session_state ? {key in st.session_state}")
-        if key not in st.session_state:
-            st.session_state[key] = value
-            st.write(f"    -> Clé '{key}' ajoutée/mise à jour dans st.session_state avec la valeur : {value}")
-            initialization_performed = True # Pour savoir si on est rentré au moins une fois
+    # # Ta boucle d'initialisation
+    # initialization_performed = False
+    # for key, value in default_session_values.items():
+    #     st.write(f"  Traitement de la clé : '{key}'. Est-elle dans st.session_state ? {key in st.session_state}")
+    #     if key not in st.session_state:
+    #         st.session_state[key] = value
+    #         st.write(f"    -> Clé '{key}' ajoutée/mise à jour dans st.session_state avec la valeur : {value}")
+    #         initialization_performed = True # Pour savoir si on est rentré au moins une fois
 
-    if not initialization_performed and default_session_values:
-        st.warning("ATTENTION : La boucle d'initialisation s'est terminée sans ajouter/mettre à jour de clés, même si default_session_values n'est pas vide. Vérifiez les conditions.")
+    # if not initialization_performed and default_session_values:
+    #     st.warning("ATTENTION : La boucle d'initialisation s'est terminée sans ajouter/mettre à jour de clés, même si default_session_values n'est pas vide. Vérifiez les conditions.")
 
 
-    st.write("3. st.session_state APRÈS la boucle d'initialisation :", st.session_state)
-    st.write("--- FIN DE main() (ou du moins, après l'initialisation) ---")
+    # st.write("3. st.session_state APRÈS la boucle d'initialisation :", st.session_state)
+    # st.write("--- FIN DE main() (ou du moins, après l'initialisation) ---")
 
 
 
