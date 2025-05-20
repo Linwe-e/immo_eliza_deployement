@@ -353,7 +353,7 @@ def main():
                                     key='hasGarden_key',
                                     on_change=update_local_storage_callback, 
                                     args=('hasGarden_key',))
-        if st.session_state.hasGarden_key == False:
+        if st.session_state.hasGarden_key == True:
             gardenSurface = st.number_input('Garden Surface', min_value=0, step=1, 
                                             key='gardenSurface_key',
                                             on_change=update_local_storage_callback, 
