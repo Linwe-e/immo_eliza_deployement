@@ -1,5 +1,5 @@
-# Création d'un dictionnaire pour associer le terme FR avec la valeur EN exacte du dataset
-traduction_fr = {
+# dictionnaire pour FR --> EN 
+fr_to_en = {
     "Maison": "HOUSE",
     "Appartement": "APARTMENT",
     "Maison standard": "STANDARD_HOUSE",
@@ -31,9 +31,38 @@ traduction_fr = {
     "USA hyper équipée": "USA_HYPER_EQUIPPED",
     "Semi équipée": "SEMI_EQUIPPED",
     "USA semi équipée": "USA_SEMI_EQUIPPED",
-    "Non zone inondable": "NON_FLOOD_ZONE",
+    "Zone non inondable": "NON_FLOOD_ZONE",
     "Zone inondable reconnue": "RECOGNIZED_FLOOD_ZONE",
     "Zone inondable possible": "POSSIBLE_FLOOD_ZONE",
     "Possible zone inondable non circonscrite": "POSSIBLE_N_CIRCUMSCRIBED_FLOOD_ZONE",
     "Zone inondable reconnue non circonscrite": "RECOGNIZED_N_CIRCUMSCRIBED_FLOOD_ZONE",
+    # province
+    'Flandre occidentale': 'West Flanders', 
+    'Anvers':'Antwerp', 
+    'Flandre occidentale': 'East Flanders', 
+    'Brabant Flamand':'Flemish Brabant',
+    'Hainaut' : 'Hainaut', 
+    'Liège' : 'Liège', 
+    'Limbourg':'Limburg',
+    'Luxembourg' : 'Luxembourg', 
+    'Namur' : 'Namur',  
+    'Brabant wallon':'Walloon Brabant', 
+    'Bruxelles':'Brussels',
+    # region
+    'Flandre' : 'Flanders',
+    'Wallonie' : 'Wallonia',
+    'Bruxelles' : 'Bruxelles'
 }
+
+# Inversion pour EN --> FR
+en_to_fr = {en: fr for fr, en in fr_to_en.items()}
+
+def translate_with_prefix (*prefixes):
+    """
+    Retourne la liste des clés EN qui commencent par un des préfixes.
+    Utile pour filtrer par catégorie.
+    """
+    return [en for en in en_to_fr if any(en.startswith(p) for p in prefixes)]
+
+
+

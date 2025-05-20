@@ -4,8 +4,7 @@ import streamlit as st
 import pandas as pd
 from pycaret.regression import load_model, predict_model
 from local_storage import LocalStorageWrapper
-# from streamlit_local_storage import LocalStorage
-from traduction_fr import traduction_fr
+from traduction_fr import fr_to_en, en_to_fr, translate_with_prefix 
  
 
  # Use all the wide
@@ -132,7 +131,7 @@ def immo_prediction(list_input_data):
     
     df_input_data['epcNumeric'] = df_input_data.apply(epcToNumeric, axis=1)
 
-    st.subheader("Data envoyé au modèle prédictif :") # For debug
+    # st.subheader("Data envoyé au modèle prédictif :") # For debug
 
     print("Colonnes de df_input_data:", df_input_data.columns.tolist())
     print("Nombre de colonnes de df_input_data:", len(df_input_data.columns))
@@ -180,11 +179,11 @@ def main():
     st.image(image_url, width=300)
 
     # Welcome text
-    welcome_text = """ ### Welcome !
-   
-    Curious about housing prices in Belgium ? This tool helps you get an estimated value.
-
-    Just provide a few details about a property, and let's find out what it might be worth !
+    welcome_text = """ ### Bienvenue !
+    
+    Curieux de connaître les prix de l'immobilier en Belgique ? Cet outil vous permet d'obtenir une estimation.
+    
+    Il vous suffit de fournir quelques informations sur un bien immobilier, et nous découvrirons ce qu'il pourrait valoir !
     """
 
     st.markdown(welcome_text)
@@ -196,9 +195,9 @@ def main():
     # Expander 1
     with st.sidebar.expander("🏡 Infos Générales & Structure", expanded=False):
 
-        type_options = ['--- Choisissez un type ---', 'HOUSE', 'APARTMENT']
-        type = st.selectbox('Type', type_options,
-                                key='type_key',
+        type_options = translate_with_prefix('HOUSE', 'APARTMENT')
+        type = st.selectbox('Type de bien', type_options,
+                                key='type_key', format_func=lambda en: en_to_fr[en],
                                 on_change=update_local_storage_callback, args=('type_key',))
         #Conditional inputs for building_floors and apartment_floor
         # Initialize to 0 if not the selected type, to avoid issues with the model later
@@ -206,7 +205,7 @@ def main():
         apartment_floor_val = st.session_state.get('apartment_floor_key', 0)
 
         if type == 'HOUSE':
-            building_floors = st.number_input('Building Floors', min_value=0, step=1, 
+            building_floors = st.number_input("Nombre d'étages", min_value=0, step=1, 
                                                     key='building_floors_key',
                                                     on_change=update_local_storage_callback, args=('building_floors_key',))
             # When type is HOUSE, apartment_floor should conceptually be 0 or NA for the model.
@@ -216,7 +215,7 @@ def main():
                 update_local_storage_callback('apartment_floor_key') # Persist this change
             apartment_floor = 0 # For the list_input_data
         elif type == 'APARTMENT':
-            apartment_floor =  st.number_input('Apartment Floor', min_value=0, step=1, 
+            apartment_floor =  st.number_input("Etage de l'appartement", min_value=0, step=1, 
                                                     key='apartment_floor_key',
                                                     on_change=update_local_storage_callback, args=('apartment_floor_key',))
             if st.session_state.building_floors_key != 0: # Check if it needs update
@@ -228,27 +227,28 @@ def main():
             building_floors = building_floors_val 
             apartment_floor = apartment_floor_val
             
-        subtype_options = ['STANDARD_HOUSE', 'STANDARD_APARTMENT', 'LUXURY_PROPERTY', 'SPECIAL_APARTMENT', 'MIXED_USE', 'RURAL_HOUSE', 'OTHER']
-        subtype_grouped = st.selectbox('SubType', subtype_options,
-                                           key='subtype_grouped_key',
+        subtype_options = translate_with_prefix('STANDARD_HOUSE', 'STANDARD_APARTMENT', 'LUXURY_PROPERTY', 'SPECIAL_APARTMENT', 'MIXED_USE', 'RURAL_HOUSE', 'OTHER')
+        subtype_grouped = st.selectbox('Sous-type', subtype_options,
+                                           key='subtype_grouped_key', format_func=lambda en: en_to_fr[en],
                                            on_change=update_local_storage_callback, args=('subtype_grouped_key',))
 
-        habitableSurface = st.number_input('Habitable Surface',min_value=0, step=1, 
+        habitableSurface = st.number_input('Surface habitable',min_value=0, step=1, 
                                                key='habitableSurface_key',
                                                on_change=update_local_storage_callback, args=('habitableSurface_key',))
         
-        buildingCondition_options = ['GOOD', 'AS_NEW', 'JUST_RENOVATED', 'TO_RENOVATE', 'UNKNOWN', 'TO_BE_DONE_UP', 'TO_RESTORE']
-        buildingCondition = st.selectbox('Building Condition',
+        buildingCondition_options = translate_with_prefix('GOOD', 'AS_NEW', 'JUST_RENOVATED', 'TO_RENOVATE', 'UNKNOWN', 'TO_BE_DONE_UP', 'TO_RESTORE')
+        buildingCondition = st.selectbox('Etat du bâtiment',
                                                  buildingCondition_options,
-                                                 key='buildingCondition_key',
+                                                 key='buildingCondition_key', 
+                                                 format_func=lambda en: en_to_fr[en],
                                                  on_change=update_local_storage_callback, args=('buildingCondition_key',))
 
-        buildingConstructionYear = st.number_input('Building Construction Year', min_value=1800, max_value=2025, step=1, 
+        buildingConstructionYear = st.number_input('Année de construction', min_value=1800, max_value=2025, step=1, 
                                                        key='buildingConstructionYear_key',
                                                        on_change=update_local_storage_callback, 
                                                        args=('buildingConstructionYear_key',))
 
-        facedeCount = st.number_input('Facede Count', min_value=0, max_value = 4, step=1,  # min_value can be 0, 1, 2, 3, 4
+        facedeCount = st.number_input('Nombre de façades', min_value=0, max_value = 4, step=1,  # min_value can be 0, 1, 2, 3, 4
                                           key='facedeCount_key',
                                           on_change=update_local_storage_callback, 
                                           args=('facedeCount_key',))
@@ -257,93 +257,99 @@ def main():
     # Expander 2
     with st.sidebar.expander("📍 Localisation"):
 
-        province_options = ['West Flanders', 'Antwerp', 'East Flanders', 
+        province_options = translate_with_prefix('West Flanders', 'Antwerp', 'East Flanders', 
                             'Flemish Brabant', 'Hainaut', 'Liège', 'Limburg', 
-                            'Luxembourg', 'Namur', 'Walloon Brabant', 'Brussels']
+                            'Luxembourg', 'Namur', 'Walloon Brabant', 'Brussels')
         province = st.selectbox('Province', province_options,
                                      key='province_key',
+                                     format_func=lambda en: en_to_fr[en],
                                      on_change=update_local_storage_callback, 
                                      args=('province_key',))
         
-        region_options = ['Bruxelles', 'Wallonia', 'Flanders']
-        region = st.selectbox('Region',region_options,
-                                  key='region_key',
+        region_options = translate_with_prefix('Wallonia', 'Flanders', 'Bruxelles')
+        region = st.selectbox('Région',region_options,
+                                  key='region_key', 
+                                  format_func=lambda en: en_to_fr[en],
                                   on_change=update_local_storage_callback, 
                                   args=('region_key',))
         
-        locality = st.text_input('Locality', 
+        locality = st.text_input('Localité', 
                                      key='locality_key',
                                      on_change=update_local_storage_callback, 
                                      args=('locality_key',)) # What happen if the name is wrong spelled ?
 
 
-        postCode = st.number_input('Post Code', min_value=1000, max_value=9999, step=1, 
+        postCode = st.number_input('Code postal', min_value=1000, max_value=9999, step=1, 
                                        key='postCode_key',
                                        on_change=update_local_storage_callback, 
                                        args=('postCode_key',)) # Removed default value=1000 to rely on session_state
        
-        floodZoneType_options = ['NON_FLOOD_ZONE', 'RECOGNIZED_FLOOD_ZONE', 
+        floodZoneType_options = translate_with_prefix('NON_FLOOD_ZONE', 'RECOGNIZED_FLOOD_ZONE', 
                                  'POSSIBLE_FLOOD_ZONE', 'POSSIBLE_N_CIRCUMSCRIBED_FLOOD_ZONE', 
                                  'RECOGNIZED_N_CIRCUMSCRIBED_FLOOD_ZONE', 'CIRCUMSCRIBED_WATERSIDE_ZONE', 
                                  'CIRCUMSCRIBED_FLOOD_ZONE', 'POSSIBLE_N_CIRCUMSCRIBED_WATERSIDE_ZONE', 
-                                 'RECOGNIZED_N_CIRCUMSCRIBED_WATERSIDE_FLOOD_ZONE']
-        floodZoneType = st.selectbox('Flood Zone Type', floodZoneType_options,
-                                             key='floodZoneType_key',
+                                 'RECOGNIZED_N_CIRCUMSCRIBED_WATERSIDE_FLOOD_ZONE')
+        floodZoneType = st.selectbox('Type de zone inondable', floodZoneType_options,
+                                             key='floodZoneType_key', 
+                                             format_func=lambda en: en_to_fr[en],
                                              on_change=update_local_storage_callback, args=('floodZoneType_key',))
         
     # Expander 3: Agencement Intérieur et Confort
     with st.sidebar.expander("🛋️ Agencement Intérieur & Confort"):
 
-        bedroomCount = st.slider('Bedroom Count', min_value=0, max_value=10, step=1, 
+        bedroomCount = st.slider('Nombre de chambres', min_value=0, max_value=10, step=1, 
                                      key='bedroomCount_key', 
                                      on_change=update_local_storage_callback, 
                                      args=('bedroomCount_key',))
         
-        bathroomCount = st.slider('Bathroom Count', min_value=0, max_value=10, step=1, 
+        bathroomCount = st.slider('Nombre de salles de bain', min_value=0, max_value=10, step=1, 
                                       key='bathroomCount_key',
                                       on_change=update_local_storage_callback,
                                       args=('bathroomCount_key',))
         
-        toiletCount = st.number_input('Toilet Count', min_value=0, step=1, 
+        toiletCount = st.number_input('Nombre de toilettes', min_value=0, step=1, 
                                           key='toiletCount_key',
                                           on_change=update_local_storage_callback, 
                                           args=('toiletCount_key',))
         
-        kitchenType_options = ['INSTALLED', 'HYPER_EQUIPPED', 'NOT_INSTALLED', 'USA_INSTALLED', 
+        kitchenType_options = translate_with_prefix('INSTALLED', 'HYPER_EQUIPPED', 'NOT_INSTALLED', 'USA_INSTALLED', 
                                'USA_UNINSTALLED', 'USA_HYPER_EQUIPPED', 'SEMI_EQUIPPED', 
-                               'USA_SEMI_EQUIPPED']
-        kitchenType = st.selectbox('Kitchen Type', kitchenType_options,
+                               'USA_SEMI_EQUIPPED')
+        kitchenType = st.selectbox('Type de cuisine', kitchenType_options,
                                            key='kitchenType_key',
+                                           format_func=lambda en: en_to_fr[en],
                                            on_change=update_local_storage_callback, 
                                            args=('kitchenType_key',))
         
-        heatingType_options = ['GAS', 'FUELOIL', 'ELECTRIC', 'WOOD', 'PELLET', 'SOLAR', 
-                               'CARBON']
-        heatingType = st.selectbox('Heating Type', heatingType_options,
+        heatingType_options = translate_with_prefix('GAS', 'FUELOIL', 'ELECTRIC', 'WOOD', 'PELLET', 'SOLAR', 
+                               'CARBON')
+        heatingType = st.selectbox('Type de chauffage', heatingType_options,
                                            key='heatingType_key',
+                                           format_func=lambda en: en_to_fr[en],
                                            on_change=update_local_storage_callback, 
                                            args=('heatingType_key',))
         
-        hasFireplace = st.checkbox('Fireplace', 
-                                       key='hasFireplace_key',
-                                       on_change=update_local_storage_callback, 
-                                       args=('hasFireplace_key',))
-        
+       
         epcNumeric_options = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'A+', 'A++']
-        epcNumeric = st.selectbox('EPC Score', epcNumeric_options,
+        epcNumeric = st.selectbox('PEB', epcNumeric_options,
                                           key='epcNumeric_key',
                                           on_change=update_local_storage_callback, 
                                           args=('epcNumeric_key',))
         
+        hasFireplace = st.checkbox('Cheminée', 
+                                    key='hasFireplace_key',
+                                    on_change=update_local_storage_callback, 
+                                    args=('hasFireplace_key',))
+        
     # Expander 4 
     with st.sidebar.expander("🌳 Extérieur & Annexes"):
 
-        landSurface = st.number_input('Land Surface', min_value=0, step=1, 
+        landSurface = st.number_input('Surface du terrain', min_value=0, step=1, 
                                           key='landSurface_key',
                                           on_change=update_local_storage_callback, 
                                           args=('landSurface_key',))
         
-        hasGarden = st.checkbox('Garden', 
+        hasGarden = st.checkbox('Jardin', 
                                     key='hasGarden_key',
                                     on_change=update_local_storage_callback, 
                                     args=('hasGarden_key',))
@@ -356,149 +362,19 @@ def main():
             gardenSurface = 0
             st.session_state['gardenSurface'] = gardenSurface 
 
-        hasTerrace = st.checkbox('Terrace', 
+        hasTerrace = st.checkbox('Terrasse', 
                                          key='hasTerrace_key',
                                          on_change=update_local_storage_callback, 
                                          args=('hasTerrace_key',))
         
-        hasSwimmingPool = st.checkbox('Swimming Pool', 
+        hasSwimmingPool = st.checkbox('Piscine', 
                                           key='hasSwimmingPool_key',
                                           on_change=update_local_storage_callback, 
                                           args=('hasSwimmingPool_key',))
 
-       # -------------------------------- #
-
-    # # Numerical data
-    # bedroomCount = st.sidebar.slider('Bedroom Count', min_value=0, max_value=10, step=1, 
-    #                                  key='bedroomCount_key', 
-    #                                  on_change=update_local_storage_callback, args=('bedroomCount_key',))
-    # bathroomCount = st.sidebar.slider('Bathroom Count', min_value=0, max_value=10, step=1, 
-    #                                   key='bathroomCount_key',
-    #                                   on_change=update_local_storage_callback, args=('bathroomCount_key',))
-    # postCode = st.sidebar.number_input('Post Code', min_value=1000, max_value=9999, step=1, 
-    #                                    key='postCode_key',
-    #                                    on_change=update_local_storage_callback, args=('postCode_key',)) # Removed default value=1000 to rely on session_state
-    # habitableSurface = st.sidebar.number_input('Habitable Surface',min_value=0, step=1, 
-    #                                            key='habitableSurface_key',
-    #                                            on_change=update_local_storage_callback, args=('habitableSurface_key',))
-    # buildingConstructionYear = st.sidebar.number_input('Building Construction Year', min_value=1800, max_value=2025, step=1, 
-    #                                                    key='buildingConstructionYear_key',
-    #                                                    on_change=update_local_storage_callback, args=('buildingConstructionYear_key',))
-    # facedeCount = st.sidebar.number_input('Facede Count', min_value=0, max_value = 4, step=1,  # min_value can be 0, 1, 2, 3, 4
-    #                                       key='facedeCount_key',
-    #                                       on_change=update_local_storage_callback, args=('facedeCount_key',))
-    # toiletCount = st.sidebar.number_input('Toilet Count', min_value=0, step=1, 
-    #                                       key='toiletCount_key',
-    #                                       on_change=update_local_storage_callback, args=('toiletCount_key',))
-    # landSurface = st.sidebar.number_input('Land Surface', min_value=0, step=1, 
-    #                                       key='landSurface_key',
-    #                                       on_change=update_local_storage_callback, args=('landSurface_key',))
-    # gardenSurface = st.sidebar.number_input('Garden Surface', min_value=0, step=1, 
-    #                                         key='gardenSurface_key',
-    #                                         on_change=update_local_storage_callback, args=('gardenSurface_key',))
-
-    # # Categorical data
-    # type_options = ['--- Choisissez un type ---', 'HOUSE', 'APARTMENT']
-    # # st.session_state['type_key'] is already initialized with a valid option.
-    # # Streamlit will use it to determine the selected item.
-    # type = st.sidebar.selectbox('Type', type_options,
-    #                             key='type_key',
-    #                             on_change=update_local_storage_callback, args=('type_key',))
-    
-    # # Conditional inputs for building_floors and apartment_floor
-    # # Initialize to 0 if not the selected type, to avoid issues with the model later
-    # building_floors_val = st.session_state.get('building_floors_key', 0)
-    # apartment_floor_val = st.session_state.get('apartment_floor_key', 0)
-
-    # if type == 'HOUSE':
-    #     building_floors = st.sidebar.number_input('Building Floors', min_value=0, step=1, 
-    #                                               key='building_floors_key',
-    #                                               on_change=update_local_storage_callback, args=('building_floors_key',))
-    #     # When type is HOUSE, apartment_floor should conceptually be 0 or NA for the model.
-    #     # We ensure session_state reflects this if it changes.
-    #     if st.session_state.apartment_floor_key != 0: # Check if it needs update
-    #         st.session_state.apartment_floor_key = 0
-    #         update_local_storage_callback('apartment_floor_key') # Persist this change
-    #     apartment_floor = 0 # For the list_input_data
-    # elif type == 'APARTMENT':
-    #     apartment_floor =  st.sidebar.number_input('Apartment Floor', min_value=0, step=1, 
-    #                                                key='apartment_floor_key',
-    #                                                on_change=update_local_storage_callback, args=('apartment_floor_key',))
-    #     if st.session_state.building_floors_key != 0: # Check if it needs update
-    #         st.session_state.building_floors_key = 0
-    #         update_local_storage_callback('building_floors_key') # Persist this change
-    #     building_floors = 0 # For the list_input_data
-    # else: # '--- Choisissez un type ---' or other
-    #     # Default to 0 if no type is selected or if values are not set.
-    #     building_floors = building_floors_val 
-    #     apartment_floor = apartment_floor_val
-
-
-    # subtype_options = ['STANDARD_HOUSE', 'STANDARD_APARTMENT', 'LUXURY_PROPERTY', 'SPECIAL_APARTMENT', 'MIXED_USE', 'RURAL_HOUSE', 'OTHER']
-    # subtype_grouped = st.sidebar.selectbox('SubType', subtype_options,
-    #                                        key='subtype_grouped_key',
-    #                                        on_change=update_local_storage_callback, args=('subtype_grouped_key',))
-
-    # buildingCondition_options = ['GOOD', 'AS_NEW', 'JUST_RENOVATED', 'TO_RENOVATE', 'UNKNOWN', 'TO_BE_DONE_UP', 'TO_RESTORE']
-    # buildingCondition = st.sidebar.selectbox('Building Condition',
-    #     buildingCondition_options,
-    #     key='buildingCondition_key',
-    #     on_change=update_local_storage_callback, args=('buildingCondition_key',))
-
-    # floodZoneType_options = ['NON_FLOOD_ZONE', 'RECOGNIZED_FLOOD_ZONE', 'POSSIBLE_FLOOD_ZONE', 'POSSIBLE_N_CIRCUMSCRIBED_FLOOD_ZONE', 'RECOGNIZED_N_CIRCUMSCRIBED_FLOOD_ZONE', 'CIRCUMSCRIBED_WATERSIDE_ZONE', 'CIRCUMSCRIBED_FLOOD_ZONE', 'POSSIBLE_N_CIRCUMSCRIBED_WATERSIDE_ZONE', 'RECOGNIZED_N_CIRCUMSCRIBED_WATERSIDE_FLOOD_ZONE']
-    # floodZoneType = st.sidebar.selectbox('Flood Zone Type', floodZoneType_options,
-    #     key='floodZoneType_key',
-    #     on_change=update_local_storage_callback, args=('floodZoneType_key',))
-
-    # heatingType_options = ['GAS', 'FUELOIL', 'ELECTRIC', 'WOOD', 'PELLET', 'SOLAR', 'CARBON']
-    # heatingType = st.sidebar.selectbox('Heating Type', heatingType_options,
-    #     key='heatingType_key',
-    #     on_change=update_local_storage_callback, args=('heatingType_key',))
-
-    # kitchenType_options = ['INSTALLED', 'HYPER_EQUIPPED', 'NOT_INSTALLED', 'USA_INSTALLED', 'USA_UNINSTALLED', 'USA_HYPER_EQUIPPED', 'SEMI_EQUIPPED', 'USA_SEMI_EQUIPPED']
-    # kitchenType = st.sidebar.selectbox('Kitchen Type', kitchenType_options,
-    #     key='kitchenType_key',
-    #     on_change=update_local_storage_callback, args=('kitchenType_key',))
-
-    # epcNumeric_options = ['B', 'A', 'C', 'F', 'D', 'E', 'G', 'A+', 'A++']
-    # epcNumeric = st.sidebar.selectbox('EPC Score', epcNumeric_options,
-    # key='epcNumeric_key',
-    # on_change=update_local_storage_callback, args=('epcNumeric_key',))
-
-    # locality = st.sidebar.text_input('Locality', 
-    #                                  key='locality_key',
-    #                                  on_change=update_local_storage_callback, args=('locality_key',)) # What happen if the name is wrong spelled ?
-
-    # province_options = ['West Flanders', 'Antwerp', 'East Flanders', 'Flemish Brabant', 'Hainaut', 'Liège', 'Limburg', 'Luxembourg', 'Namur', 'Walloon Brabant', 'Brussels']
-    # province = st.sidebar.selectbox('Province', province_options,
-    #                                  key='province_key',
-    #                                  on_change=update_local_storage_callback, args=('province_key',))
-    
-    # region_options = ['Bruxelles', 'Wallonia', 'Flanders']
-    # region = st.sidebar.selectbox('Region',region_options,
-    #                               key='region_key',
-    #                               on_change=update_local_storage_callback, args=('region_key',))
-
-      
-
-    # # Bolean data
-    # st.sidebar.write('Additionnal features')
-    # hasGarden = st.sidebar.checkbox('Garden', 
-    #                                 key='hasGarden_key',
-    #                                 on_change=update_local_storage_callback, args=('hasGarden_key',))
-    # hasSwimmingPool = st.sidebar.checkbox('Swimming Pool', 
-    #                                       key='hasSwimmingPool_key',
-    #                                       on_change=update_local_storage_callback, args=('hasSwimmingPool_key',))
-    # hasFireplace = st.sidebar.checkbox('Fireplace', 
-    #                                    key='hasFireplace_key',
-    #                                    on_change=update_local_storage_callback, args=('hasFireplace_key',))
-    # hasTerrace = st.sidebar.checkbox('Terrace', 
-    #                                  key='hasTerrace_key',
-    #                                  on_change=update_local_storage_callback, args=('hasTerrace_key',))
-
     
     # Creating a button for prediction
-    if st.button('Predict Price'):
+    if st.button("Prédire le prix", type="primary"):
         # Ensure building_floors and apartment_floor are correctly sourced from session_state for prediction
         # as their direct widget variables might be conditionally defined
         list_input_data = ([type, 
@@ -512,6 +388,11 @@ def main():
 
         predicted_price_value = immo_prediction(list_input_data)
 
+        # Afficher les résultats avec un effet visuel
+        with st.spinner("Analyse en cours..."):
+            import time
+            time.sleep(1)  # Simule le temps de calcul
+
         if isinstance(predicted_price_value, (int, float)):
            
             # --- Mise en forme prix estimé ---
@@ -519,7 +400,7 @@ def main():
             wch_colour_font_rgb = "0,0,0"    # Noir 
             fontsize = "18px"
             
-            texte_prix = "The estimated price of the property is : "
+            texte_prix = "Le prix du bien est estimé à : "
             prix_formate = f"{int(predicted_price_value):,.2f} €"
             message_principal = f"{texte_prix}<strong>{prix_formate}</strong>"
 
@@ -550,9 +431,13 @@ def main():
         
         # st.write(st.session_state) # Debug: display session state after prediction
 
+        
+
 if __name__ == '__main__':
     main()
 
 
  
-    
+    # Pied de page
+st.markdown("---")
+st.caption("_Immo Eliza AI - Développé dans le cadre d'un projet de formation IA chez BeCode_")
