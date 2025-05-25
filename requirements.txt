@@ -28,6 +28,7 @@ importlib_metadata==8.7.0
 ipython==9.2.0
 ipython_pygments_lexers==1.1.1
 ipywidgets==8.1.7
+ipympl
 itsdangerous==2.2.0
 jedi==0.19.2
 Jinja2==3.1.6
@@ -54,6 +55,7 @@ pandas==2.1.4
 parso==0.8.4
 patsy==1.0.1
 pillow==11.2.1
+pgeocode
 platformdirs==4.3.7
 plotly==5.24.1
 plotly-resampler==0.10.0
@@ -79,9 +81,9 @@ scikit-base==0.7.8
 scikit-learn==1.4.2
 scikit-plot==0.3.7
 scipy==1.11.4
+seaborn
 six==1.17.0
 sklearn-compat==0.1.3
-sktime==0.26.0
 smmap==5.0.2
 stack-data==0.6.3
 statsmodels==0.14.4
