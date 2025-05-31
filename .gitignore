@@ -114,3 +114,8 @@ logs/
 *.temp
 *.bak
 *.backup
+
+# Personal instructions and GitHub templates (private)
+.github/
+instructions/
+*.instructions.md
