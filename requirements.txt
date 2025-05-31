@@ -9,6 +9,7 @@ charset-normalizer==3.4.2
 click==8.1.8
 cloudpickle==3.1.1
 colorama==0.4.6
+joblib
 comm==0.2.2
 contourpy==1.3.2
 cycler==0.12.1

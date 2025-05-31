@@ -2,6 +2,8 @@
 import numpy as np
 import streamlit as st
 import pandas as pd
+import joblib
+import os
 from pycaret.regression import load_model, predict_model
 from local_storage import LocalStorageWrapper
 from traduction_fr import fr_to_en, en_to_fr, translate_with_prefix
@@ -12,13 +14,27 @@ from feedback_form import display_feedback_section
 st.set_page_config(layout="centered")
 
 # Loading the trained model
-# Try except verification
+# Try joblib first (plus léger), puis fallback vers PyCaret
+loaded_model = None
+model_type = None
+
 try:
-    loaded_model = load_model('model/pipeline_immo_eliza')
-    # st.sidebar.success("Modèle PyCaret chargé avec succès !")  # Check
+    # Essayer de charger avec joblib d'abord
+    if os.path.exists('model/pipeline_immo_eliza.joblib'):
+        loaded_model = joblib.load('model/pipeline_immo_eliza.joblib')
+        model_type = 'joblib'
+        st.sidebar.success("✅ Modèle Joblib chargé avec succès !")
+    # Fallback vers PyCaret si pas de fichier joblib
+    elif os.path.exists('model/pipeline_immo_eliza.pkl'):
+        loaded_model = load_model('model/pipeline_immo_eliza')
+        model_type = 'pycaret'
+        st.sidebar.success("✅ Modèle PyCaret chargé avec succès !")
+    else:
+        st.error("❌ Aucun modèle trouvé (ni .joblib ni .pkl)")
+        st.stop()
 except Exception as e:
-    st.error(f"Erreur lors du chargement du modèle PyCaret : {e}")
-    st.stop() # Stop app if error
+    st.error(f"❌ Erreur lors du chargement du modèle : {e}")
+    st.stop()
 
 # Import class LocalStorageWrapper
 
@@ -147,21 +163,24 @@ def immo_prediction(list_input_data):
     print("Première ligne de df_input_data:\n", df_input_data.head())
     # Si possible, affiche aussi les types de données pour vérifier
     # print("Types de données de df_input_data:\n", df_input_data.dtypes)
-
-
     try:
-        # Utiliser predict_model de PyCaret
-        predictions_df = predict_model(estimator=loaded_model, data=df_input_data)
+        global model_type
         
-        # Extraire la valeur prédite (souvent dans 'prediction_label' ou 'Label')
-        # Vérifie le nom exact de la colonne de prédiction retournée par ton modèle PyCaret
-        if 'prediction_label' in predictions_df.columns:
-            predicted_value = predictions_df['prediction_label'].iloc[0]
-        elif 'Label' in predictions_df.columns: # Ancien nom ou pour d'autres types de tâches
-            predicted_value = predictions_df['Label'].iloc[0]
+        if model_type == 'joblib':
+            # Pour un modèle joblib (sklearn/custom pipeline)
+            predicted_value = loaded_model.predict(df_input_data)[0]
         else:
-            st.error(f"Colonne de prédiction ('prediction_label' ou 'Label') non trouvée dans le résultat : {predictions_df.columns.tolist()}")
-            return "Erreur de prédiction (colonne résultat)"
+            # Pour PyCaret (comportement original)
+            predictions_df = predict_model(estimator=loaded_model, data=df_input_data)
+            
+            # Extraire la valeur prédite (souvent dans 'prediction_label' ou 'Label')
+            if 'prediction_label' in predictions_df.columns:
+                predicted_value = predictions_df['prediction_label'].iloc[0]
+            elif 'Label' in predictions_df.columns: # Ancien nom ou pour d'autres types de tâches
+                predicted_value = predictions_df['Label'].iloc[0]
+            else:
+                st.error(f"Colonne de prédiction ('prediction_label' ou 'Label') non trouvée dans le résultat : {predictions_df.columns.tolist()}")
+                return "Erreur de prédiction (colonne résultat)"
             
         return predicted_value
 

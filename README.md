@@ -93,12 +93,25 @@ streamlit run app.py
 
 You can then access the application in your web browser, typically at `http://localhost:8501`.
 
+### 6. Model Conversion (Optional)
+
+If you need to convert a PyCaret model to joblib format for better deployment performance:
+
+```bash
+python convert_model.py
+```
+
+This script will convert the PyCaret model to a more compact joblib format, typically reducing file size by 50-60%.
+
 ## 📦 Model
 
 The trained Machine Learning pipeline and associated features are located in the `model/` directory:
 
-*   `pipeline_immo_eliza.pkl`: The complete saved pipeline (preprocessing + model).
+*   `pipeline_immo_eliza.joblib`: The optimized model in joblib format (recommended for deployment).
+*   `pipeline_immo_eliza.pkl`: The complete saved pipeline (preprocessing + model) - PyCaret format.
 *   `model_features.txt`: The list of columns (features) expected by the model to make a prediction.
+
+**Note:** The application automatically detects and uses the joblib format if available, falling back to PyCaret format for compatibility.
 
 ## ☁️ Deployment
 
@@ -216,12 +229,25 @@ streamlit run app.py
 
 Vous pourrez ensuite accéder à l'application dans votre navigateur web, généralement à l'adresse `http://localhost:8501`.
 
+### 6. Conversion de Modèle (Optionnel)
+
+Si vous devez convertir un modèle PyCaret au format joblib pour de meilleures performances de déploiement :
+
+```bash
+python convert_model.py
+```
+
+Ce script convertira le modèle PyCaret vers un format joblib plus compact, réduisant généralement la taille du fichier de 50-60%.
+
 ## 📦 Modèle
 
 Le pipeline de Machine Learning entraîné et les caractéristiques associées se trouvent dans le dossier `model/` :
 
-*   `pipeline_immo_eliza.pkl` : Le pipeline complet sauvegardé (preprocessing + modèle).
+*   `pipeline_immo_eliza.joblib` : Le modèle optimisé en format joblib (recommandé pour le déploiement).
+*   `pipeline_immo_eliza.pkl` : Le pipeline complet sauvegardé (preprocessing + modèle) - format PyCaret.
 *   `model_features.txt` : La liste des colonnes (caractéristiques) attendues par le modèle pour faire une prédiction.
+
+**Note :** L'application détecte automatiquement et utilise le format joblib s'il est disponible, avec un fallback vers le format PyCaret pour la compatibilité.
 
 ## ☁️ Déploiement
 
