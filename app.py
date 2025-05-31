@@ -4,8 +4,9 @@ import streamlit as st
 import pandas as pd
 from pycaret.regression import load_model, predict_model
 from local_storage import LocalStorageWrapper
-from traduction_fr import fr_to_en, en_to_fr, translate_with_prefix 
- 
+from traduction_fr import fr_to_en, en_to_fr, translate_with_prefix
+from feedback_form import display_feedback_section
+
 
  # Use all the wide
 st.set_page_config(layout="centered")
@@ -45,6 +46,14 @@ for key_from_defaults, default_val_from_wrapper in load_cache.default_session_va
 # st.sidebar.write(f"Initial bedroomCount_key in session_state: {st.session_state.get('bedroomCount_key')}")
 # st.sidebar.write(f"Initial Type: {type(st.session_state.get('bedroomCount_key'))}")
 # st.sidebar.write(st.session_state)
+
+# Data feedback
+# Au début de ton application
+if 'all_feedback' not in st.session_state:
+    st.session_state.all_feedback = []
+
+if 'feedback_submitted' not in st.session_state:
+    st.session_state.feedback_submitted = False
 
 
 EXPECTED_COLUMNS_ORDER = [
@@ -391,10 +400,12 @@ def main():
         # Afficher les résultats avec un effet visuel
         with st.spinner("Analyse en cours..."):
             import time
-            time.sleep(1)  # Simule le temps de calcul
+            time.sleep(1)
 
         if isinstance(predicted_price_value, (int, float)):
-           
+            # STOCKER la prédiction dans session_state
+            st.session_state.last_prediction = predicted_price_value
+            
             # --- Mise en forme prix estimé ---
             wch_colour_box_rgb = "0,204,102"  # Vert 
             wch_colour_font_rgb = "0,0,0"    # Noir 
@@ -426,10 +437,26 @@ def main():
             st.markdown(lnk + htmlstr, unsafe_allow_html=True)
         
         else:
-            # L'erreur aura déjà été affichée dans immo_prediction ou lors du chargement du modèle
             st.error("La prédiction n'a pas pu être effectuée. Vérifiez les messages d'erreur ci-dessus.")
-        
-        # st.write(st.session_state) # Debug: display session state after prediction
+            st.session_state.last_prediction = None
+
+   
+    # Section feedback - toujours visible après une prédiction
+    if 'last_prediction' in st.session_state and st.session_state.last_prediction is not None:
+        display_feedback_section(st.session_state.last_prediction)
+
+
+    # --- DEBUG ---
+    # Afficher le contenu de session state 
+    # if st.sidebar.checkbox("Voir session state"):
+    #     st.sidebar.write(st.session_state)
+
+    # voir les feedbacks actuels
+    # if st.checkbox("🔧 Mode debug"):
+    #     if 'all_feedback' in st.session_state:
+    #         st.write("Feedbacks stockés:", st.session_state.all_feedback)
+    #     else:
+    #         st.write("Aucun feedback trouvé")
 
         
 
