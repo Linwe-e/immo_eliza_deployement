@@ -2,6 +2,7 @@ from datetime import datetime
 import streamlit as st
 import pandas as pd
 import os
+from src.google_sheets_feedback import GoogleSheetsFeedback
 
 def save_feedback_to_session(rating, comment, predicted_price, actual_price=None):
     """Sauvegarde le feedback dans session state"""
@@ -36,19 +37,38 @@ def save_feedback_to_session(rating, comment, predicted_price, actual_price=None
     return True
 
 def save_feedback_to_file(rating, comment, predicted_price, actual_price=None):
-    """Sauvegarde le feedback dans un fichier CSV"""
+    """Sauvegarde le feedback dans Google Sheets avec fallback vers CSV local"""
     
+    # Créer l'entrée de feedback
+    feedback_entry = {
+        'timestamp': datetime.now().isoformat(),
+        'rating': rating,
+        'comment': comment if comment else "",
+        'predicted_price': predicted_price,
+        'actual_price': actual_price if actual_price and actual_price > 0 else None
+    }
+    
+    try:
+        # Initialiser le gestionnaire Google Sheets
+        gs_feedback = GoogleSheetsFeedback()
+        
+        # Essayer de sauvegarder dans Google Sheets
+        if gs_feedback.save_feedback(feedback_entry):
+            return True
+        else:
+            # Si Google Sheets échoue, utiliser le fallback local
+            return _save_feedback_to_local_csv(feedback_entry)
+            
+    except Exception as e:
+        # En cas d'erreur avec Google Sheets, utiliser le fallback local
+        st.warning(f"Google Sheets indisponible, sauvegarde locale activée")
+        return _save_feedback_to_local_csv(feedback_entry)
+
+def _save_feedback_to_local_csv(feedback_entry):
+    """Sauvegarde le feedback dans un fichier CSV local (fonction de fallback)"""
     try:
         # Créer le dossier s'il n'existe pas
         os.makedirs("data", exist_ok=True)
-        
-        feedback_entry = {
-            'timestamp': datetime.now().isoformat(),
-            'rating': rating,
-            'comment': comment if comment else "",
-            'predicted_price': predicted_price,
-            'actual_price': actual_price if actual_price and actual_price > 0 else None
-        }
         
         # Fichier CSV
         csv_file = "data/feedbacks.csv"
@@ -64,7 +84,7 @@ def save_feedback_to_file(rating, comment, predicted_price, actual_price=None):
         return True
         
     except Exception as e:
-        st.error(f"Erreur lors de la sauvegarde fichier : {str(e)}")
+        st.error(f"Erreur lors de la sauvegarde locale : {str(e)}")
         return False
 
 def display_feedback_section(predicted_price):

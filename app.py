@@ -5,10 +5,12 @@ import pandas as pd
 import joblib
 import os
 from pycaret.regression import load_model, predict_model
-from local_storage import LocalStorageWrapper
-from traduction_fr import fr_to_en, en_to_fr, translate_with_prefix
-from feedback_form import display_feedback_section
+from src.local_storage import LocalStorageWrapper
+from src.traduction_fr import fr_to_en, en_to_fr, translate_with_prefix
+from src.feedback_form import display_feedback_section
 
+# Define base directory for consistent file paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
  # Use all the wide
 st.set_page_config(layout="centered")
@@ -20,13 +22,14 @@ model_type = None
 
 try:
     # Essayer de charger avec joblib d'abord
-    if os.path.exists('model/pipeline_immo_eliza.joblib'):
-        loaded_model = joblib.load('model/pipeline_immo_eliza.joblib')
+    if os.path.exists(os.path.join(BASE_DIR, 'model', 'pipeline_immo_eliza.joblib')):
+        loaded_model = joblib.load(os.path.join(BASE_DIR, 'model', 'pipeline_immo_eliza.joblib'))
         model_type = 'joblib'
         st.sidebar.success("✅ Modèle Joblib chargé avec succès !")
     # Fallback vers PyCaret si pas de fichier joblib
-    elif os.path.exists('model/pipeline_immo_eliza.pkl'):
-        loaded_model = load_model('model/pipeline_immo_eliza')
+    elif os.path.exists(os.path.join(BASE_DIR, 'model', 'pipeline_immo_eliza.pkl')):
+        # PyCaret load_model expects model name without extension, using full path
+        loaded_model = load_model(os.path.join(BASE_DIR, 'model', 'pipeline_immo_eliza'))
         model_type = 'pycaret'
         st.sidebar.success("✅ Modèle PyCaret chargé avec succès !")
     else:

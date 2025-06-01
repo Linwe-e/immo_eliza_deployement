@@ -1,4 +1,5 @@
 from streamlit_local_storage import LocalStorage
+import os
 
 class LocalStorageWrapper:
 
@@ -78,15 +79,15 @@ class LocalStorageWrapper:
 
     
     def get_all_items(self):
-        '''
-        Get all local storage values
-        '''
-        stored_values = {}
-        for key_suffix in self.default_session_values.keys():
-            stored_values[key_suffix] = self.get(key_suffix) # Utilise la méthode get existante
-        
-        #print(f"LocalStorageWrapper: All items retrieved: {stored_values}") # --> Debug
-        
-        return stored_values
-    
-    
+         '''
+         Get all local storage values
+         '''
+         stored_values = {}
+         for key_suffix in self.default_session_values.keys():
+             stored_values[key_suffix] = self.get(key_suffix) # Utilise la méthode get existante
+         
+         #print(f"LocalStorageWrapper: All items retrieved: {stored_values}") # --> Debug
+         
+         return stored_values
+
+

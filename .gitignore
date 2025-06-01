@@ -119,3 +119,6 @@ logs/
 .github/
 instructions/
 *.instructions.md
+
+# Google Sheets credentials (security)
+credentials.json
